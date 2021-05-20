@@ -23,6 +23,24 @@ namespace Asistencia_BIS.FORMULARIO
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
+            this.pnl_Bienvenido.Dock = DockStyle.Fill;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btn_Personal_Click(object sender, EventArgs e)
+        {
+
+            Personal Control1 = new Personal();
+
+            this.pnl_Bienvenido.Controls.Clear();
+
+            Control1.Dock = DockStyle.Fill;
+
+            this.pnl_Bienvenido.Controls.Add(Control1);
 
         }
     }

@@ -50,10 +50,19 @@
     <Compile Include="FORMULARIO\MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMULARIO\Personal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMULARIO\Personal.Designer.cs">
+      <DependentUpon>Personal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMULARIO\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULARIO\Personal.resx">
+      <DependentUpon>Personal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +92,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DATO\IMAGEN\reloj-digital%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATO\IMAGEN\copia-de-respaldo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATO\IMAGEN\copia-de-restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATO\IMAGEN\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATO\IMAGEN\computadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
