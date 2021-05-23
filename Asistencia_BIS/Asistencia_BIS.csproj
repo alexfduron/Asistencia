@@ -123,6 +123,51 @@
   <ItemGroup>
     <None Include="Resources\mas3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Verde2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Verde2 -transparentimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Verde21.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Verde22.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Verde2 -transparentimage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Gris2 -transparentimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Gris2 -transparentimage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Gris2 -transparentimage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Gris2 -transparentimage3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Gris3 -transparentimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn Gris2 -transparentimage4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn L2_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn R2_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn LL2_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn RR2_transparent.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
