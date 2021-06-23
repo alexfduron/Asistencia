@@ -168,6 +168,21 @@
   <ItemGroup>
     <None Include="Resources\Btn RR2_transparent.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn L1_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn LL1_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn R1_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn RR1_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Foto Aqui 2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

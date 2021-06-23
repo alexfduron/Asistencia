@@ -116,6 +116,7 @@
             // btn_Personal
             // 
             this.btn_Personal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Personal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Personal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Personal.Location = new System.Drawing.Point(10, 10);
             this.btn_Personal.Margin = new System.Windows.Forms.Padding(4);
@@ -210,6 +211,7 @@
             // btn_Estaciones
             // 
             this.btn_Estaciones.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Estaciones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Estaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Estaciones.Image = global::Asistencia_BIS.Properties.Resources.computadora;
             this.btn_Estaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -252,6 +254,7 @@
             // btn_Respaldos
             // 
             this.btn_Respaldos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Respaldos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Respaldos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Respaldos.Image = global::Asistencia_BIS.Properties.Resources.copia_de_respaldo;
             this.btn_Respaldos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -294,6 +297,7 @@
             // btn_Restaurar
             // 
             this.btn_Restaurar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Restaurar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Restaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Restaurar.Image = global::Asistencia_BIS.Properties.Resources.copia_de_restaurar;
             this.btn_Restaurar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -336,6 +340,7 @@
             // btn_Usuario
             // 
             this.btn_Usuario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Usuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Usuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Usuario.Image = global::Asistencia_BIS.Properties.Resources.usuario;
             this.btn_Usuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -378,6 +383,7 @@
             // btn_Registro
             // 
             this.btn_Registro.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Registro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Registro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Registro.Image = global::Asistencia_BIS.Properties.Resources.reloj_digital_1_;
             this.btn_Registro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -420,6 +426,8 @@
             // btn_Consultas
             // 
             this.btn_Consultas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Consultas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Consultas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Consultas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Consultas.Location = new System.Drawing.Point(10, 10);
             this.btn_Consultas.Margin = new System.Windows.Forms.Padding(4);

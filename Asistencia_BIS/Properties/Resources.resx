@@ -124,11 +124,20 @@
   <data name="Btn Gris3 -transparentimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn Gris3 -transparentimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Btn RR1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn RR1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn R1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn R1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="copia-de-restaurar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\DATO\IMAGEN\copia-de-restaurar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Btn LL2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn LL2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Btn RR2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn RR2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn L1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn L1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="copia-de-respaldo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\DATO\IMAGEN\copia-de-respaldo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +157,14 @@
   <data name="computadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\DATO\IMAGEN\computadora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Btn LL1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn LL1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\DATO\IMAGEN\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn LL2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn LL2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Btn L2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn L2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,7 +178,7 @@
   <data name="Btn R2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn R2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Btn RR2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn RR2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Foto Aqui 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Foto Aqui 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

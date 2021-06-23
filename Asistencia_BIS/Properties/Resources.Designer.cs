@@ -93,9 +93,29 @@ namespace Asistencia_BIS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Btn_L1_transparent {
+            get {
+                object obj = ResourceManager.GetObject("Btn L1_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Btn_L2_transparent {
             get {
                 object obj = ResourceManager.GetObject("Btn L2_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btn_LL1_transparent {
+            get {
+                object obj = ResourceManager.GetObject("Btn LL1_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +133,29 @@ namespace Asistencia_BIS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Btn_R1_transparent {
+            get {
+                object obj = ResourceManager.GetObject("Btn R1_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Btn_R2_transparent {
             get {
                 object obj = ResourceManager.GetObject("Btn R2_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Btn_RR1_transparent {
+            get {
+                object obj = ResourceManager.GetObject("Btn RR1_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +206,16 @@ namespace Asistencia_BIS.Properties {
         internal static System.Drawing.Bitmap copia_de_restaurar {
             get {
                 object obj = ResourceManager.GetObject("copia-de-restaurar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Foto_Aqui_2 {
+            get {
+                object obj = ResourceManager.GetObject("Foto Aqui 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

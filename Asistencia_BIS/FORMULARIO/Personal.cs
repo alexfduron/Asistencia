@@ -31,6 +31,7 @@ namespace Asistencia_BIS.FORMULARIO
         }
 
         //Botones
+        //Btn_Guardar
         private void btn_Guardar_MouseMove(object sender, MouseEventArgs e)
         {
             this.btn_Guardar.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_Gris2__transparentimage;
@@ -41,6 +42,7 @@ namespace Asistencia_BIS.FORMULARIO
             this.btn_Guardar.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
         }
 
+        //Btn_Modificar
         private void btn_Modificar_MouseMove(object sender, MouseEventArgs e)
         {
             this.btn_Modificar.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_Gris2__transparentimage;
@@ -51,6 +53,7 @@ namespace Asistencia_BIS.FORMULARIO
             this.btn_Modificar.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
         }
 
+        //Btn_Volver
         private void btn_Volver_MouseMove(object sender, MouseEventArgs e)
         {
             this.btn_Volver.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_Gris2__transparentimage;
@@ -60,6 +63,53 @@ namespace Asistencia_BIS.FORMULARIO
         {
             this.btn_Volver.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
         }
+
+        //Btn_Pag_Ant
+        private void btn_Pag_Ant_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.btn_Pag_Ant.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_L1_transparent;
+        }
+
+        private void btn_Pag_Ant_MouseLeave(object sender, EventArgs e)
+        {
+            this.btn_Pag_Ant.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_L2_transparent;
+        }
+
+        //Btn_Pag_Sig
+        private void btn_Pag_Sig_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.btn_Pag_Sig.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_R1_transparent;
+        }
+
+        private void btn_Pag_Sig_MouseLeave(object sender, EventArgs e)
+        {
+            this.btn_Pag_Sig.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_R2_transparent;
+        }
+
+        //Btn_Pri_Pag
+        private void btn_Pri_Pag_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.btn_Pri_Pag.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_LL1_transparent;
+        }
+
+        private void btn_Pri_Pag_MouseLeave(object sender, EventArgs e)
+        {
+            this.btn_Pri_Pag.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_LL2_transparent;
+        }
+
+        //Btn_Ult_Pag
+        private void btn_Ult_Pag_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.btn_Ult_Pag.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_RR1_transparent;
+        }
+
+        private void btn_Ult_Pag_MouseLeave(object sender, EventArgs e)
+        {
+            this.btn_Ult_Pag.BackgroundImage = Asistencia_BIS.Properties.Resources.Btn_RR2_transparent;
+        }
+
+
+
 
         //Texto Buscar
         private void txt_Buscar_MouseMove(object sender, MouseEventArgs e)
@@ -339,7 +389,9 @@ namespace Asistencia_BIS.FORMULARIO
 
         }
 
+        private void panel22_Paint(object sender, PaintEventArgs e)
+        {
 
-
+        }
     }
 }
