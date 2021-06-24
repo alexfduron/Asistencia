@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DATOS\ConexionMaestra.cs" />
+    <Compile Include="DATOS\Datos_Personal.cs" />
     <Compile Include="FORMULARIO\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +58,7 @@
     <Compile Include="FORMULARIO\Personal.Designer.cs">
       <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
+    <Compile Include="LOGICA\LogicaPersonal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMULARIO\MenuPrincipal.resx">
@@ -84,26 +87,24 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="LOGICA\" />
+    <None Include="DATOS\IMAGEN\reloj-digital.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DATO\IMAGEN\reloj-digital.png" />
+    <None Include="DATOS\IMAGEN\reloj-digital%281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DATO\IMAGEN\reloj-digital%281%29.png" />
+    <None Include="DATOS\IMAGEN\copia-de-respaldo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DATO\IMAGEN\copia-de-respaldo.png" />
+    <None Include="DATOS\IMAGEN\copia-de-restaurar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DATO\IMAGEN\copia-de-restaurar.png" />
+    <None Include="DATOS\IMAGEN\usuario.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DATO\IMAGEN\usuario.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DATO\IMAGEN\computadora.png" />
+    <None Include="DATOS\IMAGEN\computadora.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo2.png" />
