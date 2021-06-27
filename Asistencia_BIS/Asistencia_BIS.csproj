@@ -55,6 +55,30 @@
     <Compile Include="FORMULARIO\MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMULARIO\Menu_Cargo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMULARIO\Menu_Cargo.Designer.cs">
+      <DependentUpon>Menu_Cargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULARIO\Menu_CC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMULARIO\Menu_CC.Designer.cs">
+      <DependentUpon>Menu_CC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULARIO\Menu_Personal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMULARIO\Menu_Personal.Designer.cs">
+      <DependentUpon>Menu_Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMULARIO\Menu_Supervisor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FORMULARIO\Menu_Supervisor.Designer.cs">
+      <DependentUpon>Menu_Supervisor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMULARIO\Personal.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -69,6 +93,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMULARIO\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULARIO\Menu_Cargo.resx">
+      <DependentUpon>Menu_Cargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULARIO\Menu_CC.resx">
+      <DependentUpon>Menu_CC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULARIO\Menu_Personal.resx">
+      <DependentUpon>Menu_Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMULARIO\Menu_Supervisor.resx">
+      <DependentUpon>Menu_Supervisor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMULARIO\Personal.resx">
       <DependentUpon>Personal.cs</DependentUpon>
