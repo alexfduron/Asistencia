@@ -16,7 +16,7 @@ using System.Windows.Forms;
 
 
 
-namespace Asistencia_BIS.DATO
+namespace Asistencia_BIS.DATOS
 {
     class Datos_Personal
     {

@@ -11,7 +11,6 @@ using System.Windows.Forms;
 using Asistencia_BIS.LOGICA;
 using Asistencia_BIS.DATOS;
 
-
 //<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
 
 namespace Asistencia_BIS.FORMULARIO
@@ -438,5 +437,48 @@ namespace Asistencia_BIS.FORMULARIO
             this.cbx_Supervisor.Text = "";
 
         }
+
+        private void btn_Guardar_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void Insertar_Personal()
+        {
+
+            Logica_Personal Parametros = new Logica_Personal();
+
+            Datos_Personal Funcion = new Datos_Personal();
+
+            Parametros.Codigo = this.txt_Codigo.Text;
+
+            Parametros.Nombre = this.txt_Nombre.Text;
+
+            Parametros.Apellido = this.txt_Apellido.Text;
+
+
+
+        }
+
+        private void Insertar_Cargo()
+        {
+
+            Logica_Cargo Parametros = new Logica_Cargo();
+
+            Datos_Cargo Funcion = new Datos_Cargo();
+
+            Parametros.Cargo = cbx_Cargo.Text;
+
+            if(Funcion.Insertar_Cargo(Parametros) == true)
+            {
+
+
+
+            }
+
+        }
+
     }
 }
