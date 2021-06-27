@@ -13,15 +13,12 @@ using Asistencia_BIS.LOGICA;
 //importamos la libreria para MsgBox
 using System.Windows.Forms;
 
-
-
-
-namespace Asistencia_BIS.DATO
+namespace Asistencia_BIS.DATOS
 {
-    class Datos_Personal
+    public class Datos_Super
     {
 
-        public bool Insertar_Personal(Logica_Personal Parametros)
+        public bool Insertar_Supervisor(Logica_Super Parametros)
         {
 
             try
@@ -29,19 +26,13 @@ namespace Asistencia_BIS.DATO
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlCommand Cmd = new SqlCommand("Insertar_Personal", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlCommand Cmd = new SqlCommand("Insertar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Cmd.CommandType = CommandType.StoredProcedure;
-
-                Cmd.Parameters.AddWithValue("@Codigo", Parametros.Codigo);
-                Cmd.Parameters.AddWithValue("@Nombre", Parametros.Nombre);
-                Cmd.Parameters.AddWithValue("@Apellido", Parametros.Apellido);
-                Cmd.Parameters.AddWithValue("@ID_Centro_de_Costo", Parametros.ID_Centro_de_Costo);
-                Cmd.Parameters.AddWithValue("@ID_Cargo", Parametros.ID_Cargo);
-                Cmd.Parameters.AddWithValue("@ID_Supervisor", Parametros.ID_Supervisor);
-
-                Cmd.Parameters.AddWithValue("@Foto", Parametros.Foto);
-
+                
+                Cmd.Parameters.AddWithValue("@Nombre", Parametros.Nombre.Trim());
+                Cmd.Parameters.AddWithValue("@Apellido", Parametros.Apellido.Trim());
+                
                 Cmd.ExecuteNonQuery();
 
                 return true;
@@ -67,7 +58,7 @@ namespace Asistencia_BIS.DATO
 
         }
 
-        public bool Editar_Personal(Logica_Personal Parametros)
+        public bool Editar_Supervisor(Logica_Super Parametros)
         {
 
             try
@@ -75,19 +66,14 @@ namespace Asistencia_BIS.DATO
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlCommand Cmd = new SqlCommand("Editar_Personal", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlCommand Cmd = new SqlCommand("Editar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Cmd.CommandType = CommandType.StoredProcedure;
 
-                Cmd.Parameters.AddWithValue("@ID_Personal", Parametros.ID_Personal);
-                Cmd.Parameters.AddWithValue("@Codigo", Parametros.Codigo);
+                Cmd.Parameters.AddWithValue("@ID_Supervisor", Parametros.ID_Supervisor);
                 Cmd.Parameters.AddWithValue("@Nombre", Parametros.Nombre);
                 Cmd.Parameters.AddWithValue("@Apellido", Parametros.Apellido);
-                Cmd.Parameters.AddWithValue("@ID_Centro_de_Costo", Parametros.ID_Centro_de_Costo);
-                Cmd.Parameters.AddWithValue("@ID_Cargo", Parametros.ID_Cargo);
-                Cmd.Parameters.AddWithValue("@ID_Supervisor", Parametros.ID_Supervisor);
                 Cmd.Parameters.AddWithValue("@Estado", Parametros.Estado);
-                Cmd.Parameters.AddWithValue("@Foto", Parametros.Foto);
 
                 Cmd.ExecuteNonQuery();
 
@@ -114,7 +100,7 @@ namespace Asistencia_BIS.DATO
 
         }
 
-        public bool Eliminar_Personal(Logica_Personal Parametros)
+        public bool Eliminar_Supervisor(Logica_Super Parametros)
         {
 
             try
@@ -122,11 +108,11 @@ namespace Asistencia_BIS.DATO
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlCommand Cmd = new SqlCommand("Eliminar_Personal", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlCommand Cmd = new SqlCommand("Eliminar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Cmd.CommandType = CommandType.StoredProcedure;
 
-                Cmd.Parameters.AddWithValue("@ID_Personal", Parametros.ID_Personal);
+                Cmd.Parameters.AddWithValue("@ID_Supervisor", Parametros.ID_Supervisor);
 
                 Cmd.ExecuteNonQuery();
 
@@ -153,7 +139,7 @@ namespace Asistencia_BIS.DATO
 
         }
 
-        public void Mostrar_Personal(ref DataTable Dt, int Desde, int Hasta)
+        public void Mostrar_Supervisor(ref DataTable Dt)
         {
 
             try
@@ -161,13 +147,9 @@ namespace Asistencia_BIS.DATO
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlDataAdapter Da = new SqlDataAdapter("Mostrar_Personal", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlDataAdapter Da = new SqlDataAdapter("Mostrar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Da.SelectCommand.CommandType = CommandType.StoredProcedure;
-
-                Da.SelectCommand.Parameters.AddWithValue("@Desde", Desde);
-
-                Da.SelectCommand.Parameters.AddWithValue("@Hasta", Hasta);
 
                 Da.Fill(Dt);
 
@@ -190,7 +172,7 @@ namespace Asistencia_BIS.DATO
 
         }
 
-        public void Buscar_Personal(ref DataTable Dt, int Desde, int Hasta, string Buscador)
+        public void Buscar_Supervisor(ref DataTable Dt, string Buscador)
         {
 
             try
@@ -198,13 +180,9 @@ namespace Asistencia_BIS.DATO
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlDataAdapter Da = new SqlDataAdapter("Buscar_Personal", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlDataAdapter Da = new SqlDataAdapter("Buscar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Da.SelectCommand.CommandType = CommandType.StoredProcedure;
-
-                Da.SelectCommand.Parameters.AddWithValue("@Desde", Desde);
-
-                Da.SelectCommand.Parameters.AddWithValue("@Hasta", Hasta);
 
                 Da.SelectCommand.Parameters.AddWithValue("@Buscador", Buscador);
 

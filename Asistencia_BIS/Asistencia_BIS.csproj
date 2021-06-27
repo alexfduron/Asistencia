@@ -45,7 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DATOS\ConexionMaestra.cs" />
+    <Compile Include="DATOS\Datos_Cargo.cs" />
+    <Compile Include="DATOS\Datos_CC.cs" />
     <Compile Include="DATOS\Datos_Personal.cs" />
+    <Compile Include="DATOS\Datos_Super.cs" />
     <Compile Include="FORMULARIO\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,7 +61,10 @@
     <Compile Include="FORMULARIO\Personal.Designer.cs">
       <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
-    <Compile Include="LOGICA\LogicaPersonal.cs" />
+    <Compile Include="LOGICA\Logica_Cargo.cs" />
+    <Compile Include="LOGICA\Logica_CC.cs" />
+    <Compile Include="LOGICA\Logica_Personal.cs" />
+    <Compile Include="LOGICA\Logica_Super.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FORMULARIO\MenuPrincipal.resx">

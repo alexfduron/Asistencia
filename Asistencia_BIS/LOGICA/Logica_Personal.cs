@@ -11,7 +11,7 @@ using System.Drawing;
 
 namespace Asistencia_BIS.LOGICA
 {
-    public class LogicaPersonal
+    public class Logica_Personal
     {
 
         public int ID_Personal
