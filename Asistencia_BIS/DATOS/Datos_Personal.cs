@@ -13,6 +13,8 @@ using Asistencia_BIS.LOGICA;
 //importamos la libreria para MsgBox
 using System.Windows.Forms;
 
+
+
 namespace Asistencia_BIS.DATO
 {
     class Datos_Personal
