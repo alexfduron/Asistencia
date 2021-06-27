@@ -29,18 +29,25 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_Titulo = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pnl_Buscar = new System.Windows.Forms.Panel();
             this.txt_Buscar = new System.Windows.Forms.TextBox();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.btn_Buscar = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.btn_Borrar = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.btn_Agregar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.Pnl_Paginado = new System.Windows.Forms.Panel();
             this.TLP_Navegador = new System.Windows.Forms.TableLayoutPanel();
             this.TLP_Btn_Nav1 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_Pag_Ant = new System.Windows.Forms.Button();
+            this.btn_Pag_Sig = new System.Windows.Forms.Button();
             this.TLP_Btn_Nav2 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_Pri_Pag = new System.Windows.Forms.Button();
+            this.btn_Ult_Pag = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,24 +58,28 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.lbl_Nombre = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.pnl_Supervisor = new System.Windows.Forms.Panel();
-            this.cb_Supervisor = new System.Windows.Forms.ComboBox();
+            this.cbx_Supervisor = new System.Windows.Forms.ComboBox();
             this.panel18 = new System.Windows.Forms.Panel();
             this.lbl_Supervisor = new System.Windows.Forms.Label();
+            this.btn_Buscar_Supervisor = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
             this.pnl_Cargo = new System.Windows.Forms.Panel();
-            this.cb_Cargo = new System.Windows.Forms.ComboBox();
+            this.cbx_Cargo = new System.Windows.Forms.ComboBox();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.btn_Busar_Cargo = new System.Windows.Forms.Button();
             this.lbl_Cargo = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.pnl_CC = new System.Windows.Forms.Panel();
-            this.cb_CC = new System.Windows.Forms.ComboBox();
+            this.cbx_CC = new System.Windows.Forms.ComboBox();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.btn_Buscar_CC = new System.Windows.Forms.Button();
             this.lbl_CC = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.pnl_ID = new System.Windows.Forms.Panel();
-            this.txt_ID = new System.Windows.Forms.TextBox();
+            this.txt_Codigo = new System.Windows.Forms.TextBox();
             this.lbl_ID = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pnl_Apellido = new System.Windows.Forms.Panel();
@@ -77,48 +88,38 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.pnl_Nombre = new System.Windows.Forms.Panel();
             this.txt_Nombre = new System.Windows.Forms.TextBox();
-            this.panel13 = new System.Windows.Forms.Panel();
+            this.Pnl_RegistroSup = new System.Windows.Forms.Panel();
             this.TLP_Botones = new System.Windows.Forms.TableLayoutPanel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.FLP_txt = new System.Windows.Forms.FlowLayoutPanel();
             this.btn_Volver = new System.Windows.Forms.Button();
             this.btn_Guardar = new System.Windows.Forms.Button();
             this.btn_Modificar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_Buscar_Supervisor = new System.Windows.Forms.Button();
-            this.btn_Busar_Cargo = new System.Windows.Forms.Button();
-            this.btn_Buscar_CC = new System.Windows.Forms.Button();
-            this.btn_Pag_Ant = new System.Windows.Forms.Button();
-            this.btn_Pag_Sig = new System.Windows.Forms.Button();
-            this.btn_Pri_Pag = new System.Windows.Forms.Button();
-            this.btn_Ult_Pag = new System.Windows.Forms.Button();
-            this.btn_Buscar = new System.Windows.Forms.Button();
-            this.btn_Borrar = new System.Windows.Forms.Button();
-            this.btn_Agregar = new System.Windows.Forms.Button();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.Pnl_RegistroInf = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.Pnl_Paginado.SuspendLayout();
             this.TLP_Navegador.SuspendLayout();
             this.TLP_Btn_Nav1.SuspendLayout();
             this.TLP_Btn_Nav2.SuspendLayout();
             this.panel21.SuspendLayout();
             this.panel22.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel12.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.panel13.SuspendLayout();
+            this.Pnl_RegistroSup.SuspendLayout();
             this.TLP_Botones.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Pnl_RegistroInf.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.lbl_Titulo);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.btn_Agregar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -127,17 +128,17 @@
             this.panel1.Size = new System.Drawing.Size(1363, 111);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // lbl_Titulo
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Consolas", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1253, 65);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Titulo";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.lbl_Titulo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbl_Titulo.Font = new System.Drawing.Font("Consolas", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Titulo.ForeColor = System.Drawing.Color.White;
+            this.lbl_Titulo.Location = new System.Drawing.Point(0, 0);
+            this.lbl_Titulo.Name = "lbl_Titulo";
+            this.lbl_Titulo.Size = new System.Drawing.Size(1253, 65);
+            this.lbl_Titulo.TabIndex = 10;
+            this.lbl_Titulo.Text = "Titulo";
+            this.lbl_Titulo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // panel6
             // 
@@ -187,6 +188,22 @@
             this.panel20.Size = new System.Drawing.Size(10, 46);
             this.panel20.TabIndex = 12;
             // 
+            // btn_Buscar
+            // 
+            this.btn_Buscar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Buscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Buscar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Buscar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Buscar.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
+            this.btn_Buscar.Location = new System.Drawing.Point(1117, 0);
+            this.btn_Buscar.Name = "btn_Buscar";
+            this.btn_Buscar.Size = new System.Drawing.Size(58, 46);
+            this.btn_Buscar.TabIndex = 7;
+            this.btn_Buscar.UseVisualStyleBackColor = false;
+            // 
             // panel19
             // 
             this.panel19.Dock = System.Windows.Forms.DockStyle.Right;
@@ -195,6 +212,22 @@
             this.panel19.Size = new System.Drawing.Size(10, 46);
             this.panel19.TabIndex = 11;
             // 
+            // btn_Borrar
+            // 
+            this.btn_Borrar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Borrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Borrar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Borrar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Borrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Borrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Borrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Borrar.Image = global::Asistencia_BIS.Properties.Resources.borrador;
+            this.btn_Borrar.Location = new System.Drawing.Point(1185, 0);
+            this.btn_Borrar.Name = "btn_Borrar";
+            this.btn_Borrar.Size = new System.Drawing.Size(58, 46);
+            this.btn_Borrar.TabIndex = 8;
+            this.btn_Borrar.UseVisualStyleBackColor = false;
+            // 
             // panel15
             // 
             this.panel15.Dock = System.Windows.Forms.DockStyle.Right;
@@ -202,6 +235,24 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(10, 46);
             this.panel15.TabIndex = 10;
+            // 
+            // btn_Agregar
+            // 
+            this.btn_Agregar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Agregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Agregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Agregar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Agregar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Agregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Agregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Agregar.Image = global::Asistencia_BIS.Properties.Resources.mas3;
+            this.btn_Agregar.Location = new System.Drawing.Point(1253, 0);
+            this.btn_Agregar.Name = "btn_Agregar";
+            this.btn_Agregar.Size = new System.Drawing.Size(110, 111);
+            this.btn_Agregar.TabIndex = 9;
+            this.btn_Agregar.UseVisualStyleBackColor = false;
+            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
             // dataGridView1
             // 
@@ -221,14 +272,14 @@
             this.dataGridView1.Size = new System.Drawing.Size(133, 101);
             this.dataGridView1.TabIndex = 1;
             // 
-            // panel2
+            // Pnl_Paginado
             // 
-            this.panel2.Controls.Add(this.TLP_Navegador);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 548);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1363, 102);
-            this.panel2.TabIndex = 2;
+            this.Pnl_Paginado.Controls.Add(this.TLP_Navegador);
+            this.Pnl_Paginado.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Pnl_Paginado.Location = new System.Drawing.Point(0, 548);
+            this.Pnl_Paginado.Name = "Pnl_Paginado";
+            this.Pnl_Paginado.Size = new System.Drawing.Size(1363, 102);
+            this.Pnl_Paginado.TabIndex = 2;
             // 
             // TLP_Navegador
             // 
@@ -269,6 +320,48 @@
             this.TLP_Btn_Nav1.Size = new System.Drawing.Size(442, 94);
             this.TLP_Btn_Nav1.TabIndex = 0;
             // 
+            // btn_Pag_Ant
+            // 
+            this.btn_Pag_Ant.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_L2_transparent;
+            this.btn_Pag_Ant.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Pag_Ant.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Pag_Ant.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Pag_Ant.FlatAppearance.BorderSize = 0;
+            this.btn_Pag_Ant.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Ant.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Ant.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Pag_Ant.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Pag_Ant.ForeColor = System.Drawing.Color.White;
+            this.btn_Pag_Ant.Location = new System.Drawing.Point(3, 13);
+            this.btn_Pag_Ant.Name = "btn_Pag_Ant";
+            this.btn_Pag_Ant.Size = new System.Drawing.Size(205, 68);
+            this.btn_Pag_Ant.TabIndex = 3;
+            this.btn_Pag_Ant.Text = "Pagina\r\nAnterior";
+            this.btn_Pag_Ant.UseVisualStyleBackColor = true;
+            this.btn_Pag_Ant.MouseLeave += new System.EventHandler(this.btn_Pag_Ant_MouseLeave);
+            this.btn_Pag_Ant.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Ant_MouseMove);
+            // 
+            // btn_Pag_Sig
+            // 
+            this.btn_Pag_Sig.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_R2_transparent;
+            this.btn_Pag_Sig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Pag_Sig.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Pag_Sig.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Pag_Sig.FlatAppearance.BorderSize = 0;
+            this.btn_Pag_Sig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Sig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Sig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Pag_Sig.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Pag_Sig.ForeColor = System.Drawing.Color.White;
+            this.btn_Pag_Sig.Location = new System.Drawing.Point(234, 13);
+            this.btn_Pag_Sig.Name = "btn_Pag_Sig";
+            this.btn_Pag_Sig.Size = new System.Drawing.Size(205, 68);
+            this.btn_Pag_Sig.TabIndex = 4;
+            this.btn_Pag_Sig.Text = "Pagina\r\nSiguiente";
+            this.btn_Pag_Sig.UseVisualStyleBackColor = true;
+            this.btn_Pag_Sig.MouseLeave += new System.EventHandler(this.btn_Pag_Sig_MouseLeave);
+            this.btn_Pag_Sig.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Sig_MouseMove);
+            // 
             // TLP_Btn_Nav2
             // 
             this.TLP_Btn_Nav2.ColumnCount = 3;
@@ -288,6 +381,48 @@
             this.TLP_Btn_Nav2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.TLP_Btn_Nav2.Size = new System.Drawing.Size(443, 94);
             this.TLP_Btn_Nav2.TabIndex = 1;
+            // 
+            // btn_Pri_Pag
+            // 
+            this.btn_Pri_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_LL2_transparent;
+            this.btn_Pri_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Pri_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Pri_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Pri_Pag.FlatAppearance.BorderSize = 0;
+            this.btn_Pri_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pri_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pri_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Pri_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Pri_Pag.ForeColor = System.Drawing.Color.White;
+            this.btn_Pri_Pag.Location = new System.Drawing.Point(3, 13);
+            this.btn_Pri_Pag.Name = "btn_Pri_Pag";
+            this.btn_Pri_Pag.Size = new System.Drawing.Size(205, 68);
+            this.btn_Pri_Pag.TabIndex = 3;
+            this.btn_Pri_Pag.Text = "Primera\r\nPagina\r\n";
+            this.btn_Pri_Pag.UseVisualStyleBackColor = true;
+            this.btn_Pri_Pag.MouseLeave += new System.EventHandler(this.btn_Pri_Pag_MouseLeave);
+            this.btn_Pri_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pri_Pag_MouseMove);
+            // 
+            // btn_Ult_Pag
+            // 
+            this.btn_Ult_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_RR2_transparent;
+            this.btn_Ult_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Ult_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Ult_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Ult_Pag.FlatAppearance.BorderSize = 0;
+            this.btn_Ult_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Ult_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Ult_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Ult_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ult_Pag.ForeColor = System.Drawing.Color.White;
+            this.btn_Ult_Pag.Location = new System.Drawing.Point(234, 13);
+            this.btn_Ult_Pag.Name = "btn_Ult_Pag";
+            this.btn_Ult_Pag.Size = new System.Drawing.Size(206, 68);
+            this.btn_Ult_Pag.TabIndex = 4;
+            this.btn_Ult_Pag.Text = "Ultima\r\nPagina\r\n";
+            this.btn_Ult_Pag.UseVisualStyleBackColor = true;
+            this.btn_Ult_Pag.MouseLeave += new System.EventHandler(this.btn_Ult_Pag_MouseLeave);
+            this.btn_Ult_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Ult_Pag_MouseMove);
             // 
             // panel21
             // 
@@ -397,10 +532,21 @@
             this.panel7.Size = new System.Drawing.Size(923, 277);
             this.panel7.TabIndex = 6;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::Asistencia_BIS.Properties.Resources.Foto_Aqui_2;
+            this.pictureBox1.Location = new System.Drawing.Point(759, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(148, 119);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel12
             // 
             this.panel12.Controls.Add(this.pnl_Supervisor);
-            this.panel12.Controls.Add(this.cb_Supervisor);
+            this.panel12.Controls.Add(this.cbx_Supervisor);
             this.panel12.Controls.Add(this.panel18);
             this.panel12.Controls.Add(this.lbl_Supervisor);
             this.panel12.Controls.Add(this.btn_Buscar_Supervisor);
@@ -418,23 +564,23 @@
             this.pnl_Supervisor.Size = new System.Drawing.Size(492, 3);
             this.pnl_Supervisor.TabIndex = 5;
             // 
-            // cb_Supervisor
+            // cbx_Supervisor
             // 
-            this.cb_Supervisor.BackColor = System.Drawing.Color.Black;
-            this.cb_Supervisor.Dock = System.Windows.Forms.DockStyle.Top;
-            this.cb_Supervisor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cb_Supervisor.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_Supervisor.ForeColor = System.Drawing.Color.White;
-            this.cb_Supervisor.FormattingEnabled = true;
-            this.cb_Supervisor.Location = new System.Drawing.Point(190, 0);
-            this.cb_Supervisor.Name = "cb_Supervisor";
-            this.cb_Supervisor.Size = new System.Drawing.Size(492, 35);
-            this.cb_Supervisor.TabIndex = 7;
-            this.cb_Supervisor.SelectedIndexChanged += new System.EventHandler(this.cb_Supervisor_SelectedIndexChanged);
-            this.cb_Supervisor.Enter += new System.EventHandler(this.cb_Supervisor_Enter);
-            this.cb_Supervisor.Leave += new System.EventHandler(this.cb_Supervisor_Leave);
-            this.cb_Supervisor.MouseLeave += new System.EventHandler(this.cb_Supervisor_MouseLeave);
-            this.cb_Supervisor.MouseMove += new System.Windows.Forms.MouseEventHandler(this.cb_Supervisor_MouseMove);
+            this.cbx_Supervisor.BackColor = System.Drawing.Color.Black;
+            this.cbx_Supervisor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cbx_Supervisor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbx_Supervisor.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx_Supervisor.ForeColor = System.Drawing.Color.White;
+            this.cbx_Supervisor.FormattingEnabled = true;
+            this.cbx_Supervisor.Location = new System.Drawing.Point(190, 0);
+            this.cbx_Supervisor.Name = "cbx_Supervisor";
+            this.cbx_Supervisor.Size = new System.Drawing.Size(492, 35);
+            this.cbx_Supervisor.TabIndex = 7;
+            this.cbx_Supervisor.SelectedIndexChanged += new System.EventHandler(this.cb_Supervisor_SelectedIndexChanged);
+            this.cbx_Supervisor.Enter += new System.EventHandler(this.cb_Supervisor_Enter);
+            this.cbx_Supervisor.Leave += new System.EventHandler(this.cb_Supervisor_Leave);
+            this.cbx_Supervisor.MouseLeave += new System.EventHandler(this.cb_Supervisor_MouseLeave);
+            this.cbx_Supervisor.MouseMove += new System.Windows.Forms.MouseEventHandler(this.cb_Supervisor_MouseMove);
             // 
             // panel18
             // 
@@ -455,10 +601,26 @@
             this.lbl_Supervisor.Text = "Supervisor:";
             this.lbl_Supervisor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // btn_Buscar_Supervisor
+            // 
+            this.btn_Buscar_Supervisor.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Buscar_Supervisor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Buscar_Supervisor.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Buscar_Supervisor.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Buscar_Supervisor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Buscar_Supervisor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Buscar_Supervisor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Buscar_Supervisor.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
+            this.btn_Buscar_Supervisor.Location = new System.Drawing.Point(692, 0);
+            this.btn_Buscar_Supervisor.Name = "btn_Buscar_Supervisor";
+            this.btn_Buscar_Supervisor.Size = new System.Drawing.Size(58, 38);
+            this.btn_Buscar_Supervisor.TabIndex = 11;
+            this.btn_Buscar_Supervisor.UseVisualStyleBackColor = false;
+            // 
             // panel11
             // 
             this.panel11.Controls.Add(this.pnl_Cargo);
-            this.panel11.Controls.Add(this.cb_Cargo);
+            this.panel11.Controls.Add(this.cbx_Cargo);
             this.panel11.Controls.Add(this.panel17);
             this.panel11.Controls.Add(this.btn_Busar_Cargo);
             this.panel11.Controls.Add(this.lbl_Cargo);
@@ -476,22 +638,22 @@
             this.pnl_Cargo.Size = new System.Drawing.Size(492, 3);
             this.pnl_Cargo.TabIndex = 5;
             // 
-            // cb_Cargo
+            // cbx_Cargo
             // 
-            this.cb_Cargo.BackColor = System.Drawing.Color.Black;
-            this.cb_Cargo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.cb_Cargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cb_Cargo.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_Cargo.ForeColor = System.Drawing.Color.White;
-            this.cb_Cargo.FormattingEnabled = true;
-            this.cb_Cargo.Location = new System.Drawing.Point(190, 0);
-            this.cb_Cargo.Name = "cb_Cargo";
-            this.cb_Cargo.Size = new System.Drawing.Size(492, 35);
-            this.cb_Cargo.TabIndex = 6;
-            this.cb_Cargo.Enter += new System.EventHandler(this.cb_Cargo_Enter);
-            this.cb_Cargo.Leave += new System.EventHandler(this.cb_Cargo_Leave);
-            this.cb_Cargo.MouseLeave += new System.EventHandler(this.cb_Cargo_MouseLeave);
-            this.cb_Cargo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.cb_Cargo_MouseMove);
+            this.cbx_Cargo.BackColor = System.Drawing.Color.Black;
+            this.cbx_Cargo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cbx_Cargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbx_Cargo.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx_Cargo.ForeColor = System.Drawing.Color.White;
+            this.cbx_Cargo.FormattingEnabled = true;
+            this.cbx_Cargo.Location = new System.Drawing.Point(190, 0);
+            this.cbx_Cargo.Name = "cbx_Cargo";
+            this.cbx_Cargo.Size = new System.Drawing.Size(492, 35);
+            this.cbx_Cargo.TabIndex = 6;
+            this.cbx_Cargo.Enter += new System.EventHandler(this.cb_Cargo_Enter);
+            this.cbx_Cargo.Leave += new System.EventHandler(this.cb_Cargo_Leave);
+            this.cbx_Cargo.MouseLeave += new System.EventHandler(this.cb_Cargo_MouseLeave);
+            this.cbx_Cargo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.cb_Cargo_MouseMove);
             // 
             // panel17
             // 
@@ -500,6 +662,22 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(10, 38);
             this.panel17.TabIndex = 15;
+            // 
+            // btn_Busar_Cargo
+            // 
+            this.btn_Busar_Cargo.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Busar_Cargo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Busar_Cargo.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Busar_Cargo.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Busar_Cargo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Busar_Cargo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Busar_Cargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Busar_Cargo.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
+            this.btn_Busar_Cargo.Location = new System.Drawing.Point(692, 0);
+            this.btn_Busar_Cargo.Name = "btn_Busar_Cargo";
+            this.btn_Busar_Cargo.Size = new System.Drawing.Size(58, 38);
+            this.btn_Busar_Cargo.TabIndex = 12;
+            this.btn_Busar_Cargo.UseVisualStyleBackColor = false;
             // 
             // lbl_Cargo
             // 
@@ -515,7 +693,7 @@
             // panel10
             // 
             this.panel10.Controls.Add(this.pnl_CC);
-            this.panel10.Controls.Add(this.cb_CC);
+            this.panel10.Controls.Add(this.cbx_CC);
             this.panel10.Controls.Add(this.panel16);
             this.panel10.Controls.Add(this.btn_Buscar_CC);
             this.panel10.Controls.Add(this.lbl_CC);
@@ -533,22 +711,22 @@
             this.pnl_CC.Size = new System.Drawing.Size(492, 3);
             this.pnl_CC.TabIndex = 5;
             // 
-            // cb_CC
+            // cbx_CC
             // 
-            this.cb_CC.BackColor = System.Drawing.Color.Black;
-            this.cb_CC.Dock = System.Windows.Forms.DockStyle.Top;
-            this.cb_CC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cb_CC.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_CC.ForeColor = System.Drawing.Color.White;
-            this.cb_CC.FormattingEnabled = true;
-            this.cb_CC.Location = new System.Drawing.Point(190, 0);
-            this.cb_CC.Name = "cb_CC";
-            this.cb_CC.Size = new System.Drawing.Size(492, 35);
-            this.cb_CC.TabIndex = 5;
-            this.cb_CC.Enter += new System.EventHandler(this.cb_CC_Enter);
-            this.cb_CC.Leave += new System.EventHandler(this.cb_CC_Leave);
-            this.cb_CC.MouseLeave += new System.EventHandler(this.cb_CC_MouseLeave);
-            this.cb_CC.MouseMove += new System.Windows.Forms.MouseEventHandler(this.cb_CC_MouseMove);
+            this.cbx_CC.BackColor = System.Drawing.Color.Black;
+            this.cbx_CC.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cbx_CC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbx_CC.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx_CC.ForeColor = System.Drawing.Color.White;
+            this.cbx_CC.FormattingEnabled = true;
+            this.cbx_CC.Location = new System.Drawing.Point(190, 0);
+            this.cbx_CC.Name = "cbx_CC";
+            this.cbx_CC.Size = new System.Drawing.Size(492, 35);
+            this.cbx_CC.TabIndex = 5;
+            this.cbx_CC.Enter += new System.EventHandler(this.cb_CC_Enter);
+            this.cbx_CC.Leave += new System.EventHandler(this.cb_CC_Leave);
+            this.cbx_CC.MouseLeave += new System.EventHandler(this.cb_CC_MouseLeave);
+            this.cbx_CC.MouseMove += new System.Windows.Forms.MouseEventHandler(this.cb_CC_MouseMove);
             // 
             // panel16
             // 
@@ -557,6 +735,22 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(10, 38);
             this.panel16.TabIndex = 14;
+            // 
+            // btn_Buscar_CC
+            // 
+            this.btn_Buscar_CC.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Buscar_CC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Buscar_CC.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Buscar_CC.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Buscar_CC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Buscar_CC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Buscar_CC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Buscar_CC.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
+            this.btn_Buscar_CC.Location = new System.Drawing.Point(692, 0);
+            this.btn_Buscar_CC.Name = "btn_Buscar_CC";
+            this.btn_Buscar_CC.Size = new System.Drawing.Size(58, 38);
+            this.btn_Buscar_CC.TabIndex = 13;
+            this.btn_Buscar_CC.UseVisualStyleBackColor = false;
             // 
             // lbl_CC
             // 
@@ -572,7 +766,7 @@
             // panel9
             // 
             this.panel9.Controls.Add(this.pnl_ID);
-            this.panel9.Controls.Add(this.txt_ID);
+            this.panel9.Controls.Add(this.txt_Codigo);
             this.panel9.Controls.Add(this.lbl_ID);
             this.panel9.Location = new System.Drawing.Point(3, 6);
             this.panel9.Name = "panel9";
@@ -588,21 +782,21 @@
             this.pnl_ID.Size = new System.Drawing.Size(560, 3);
             this.pnl_ID.TabIndex = 5;
             // 
-            // txt_ID
+            // txt_Codigo
             // 
-            this.txt_ID.BackColor = System.Drawing.Color.Black;
-            this.txt_ID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_ID.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txt_ID.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ID.ForeColor = System.Drawing.Color.White;
-            this.txt_ID.Location = new System.Drawing.Point(190, 0);
-            this.txt_ID.Name = "txt_ID";
-            this.txt_ID.Size = new System.Drawing.Size(560, 35);
-            this.txt_ID.TabIndex = 4;
-            this.txt_ID.Enter += new System.EventHandler(this.txt_ID_Enter);
-            this.txt_ID.Leave += new System.EventHandler(this.txt_ID_Leave);
-            this.txt_ID.MouseLeave += new System.EventHandler(this.txt_ID_MouseLeave);
-            this.txt_ID.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_ID_MouseMove);
+            this.txt_Codigo.BackColor = System.Drawing.Color.Black;
+            this.txt_Codigo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_Codigo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txt_Codigo.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Codigo.ForeColor = System.Drawing.Color.White;
+            this.txt_Codigo.Location = new System.Drawing.Point(190, 0);
+            this.txt_Codigo.Name = "txt_Codigo";
+            this.txt_Codigo.Size = new System.Drawing.Size(560, 35);
+            this.txt_Codigo.TabIndex = 4;
+            this.txt_Codigo.Enter += new System.EventHandler(this.txt_ID_Enter);
+            this.txt_Codigo.Leave += new System.EventHandler(this.txt_ID_Leave);
+            this.txt_Codigo.MouseLeave += new System.EventHandler(this.txt_ID_MouseLeave);
+            this.txt_Codigo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_ID_MouseMove);
             // 
             // lbl_ID
             // 
@@ -696,15 +890,15 @@
             this.txt_Nombre.MouseLeave += new System.EventHandler(this.txt_Nombre_MouseLeave);
             this.txt_Nombre.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_Nombre_MouseMove);
             // 
-            // panel13
+            // Pnl_RegistroSup
             // 
-            this.panel13.Controls.Add(this.TLP_Botones);
-            this.panel13.Controls.Add(this.panel14);
-            this.panel13.Controls.Add(this.panel7);
-            this.panel13.Location = new System.Drawing.Point(56, 130);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(923, 366);
-            this.panel13.TabIndex = 7;
+            this.Pnl_RegistroSup.Controls.Add(this.TLP_Botones);
+            this.Pnl_RegistroSup.Controls.Add(this.panel14);
+            this.Pnl_RegistroSup.Controls.Add(this.panel7);
+            this.Pnl_RegistroSup.Location = new System.Drawing.Point(51, 24);
+            this.Pnl_RegistroSup.Name = "Pnl_RegistroSup";
+            this.Pnl_RegistroSup.Size = new System.Drawing.Size(923, 366);
+            this.Pnl_RegistroSup.TabIndex = 7;
             // 
             // TLP_Botones
             // 
@@ -724,21 +918,6 @@
             this.TLP_Botones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TLP_Botones.Size = new System.Drawing.Size(923, 68);
             this.TLP_Botones.TabIndex = 7;
-            // 
-            // panel14
-            // 
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel14.Location = new System.Drawing.Point(0, 277);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(923, 21);
-            this.panel14.TabIndex = 8;
-            // 
-            // FLP_txt
-            // 
-            this.FLP_txt.Location = new System.Drawing.Point(1056, 375);
-            this.FLP_txt.Name = "FLP_txt";
-            this.FLP_txt.Size = new System.Drawing.Size(426, 67);
-            this.FLP_txt.TabIndex = 9;
             // 
             // btn_Volver
             // 
@@ -803,209 +982,32 @@
             this.btn_Modificar.MouseLeave += new System.EventHandler(this.btn_Modificar_MouseLeave);
             this.btn_Modificar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Modificar_MouseMove);
             // 
-            // pictureBox1
+            // panel14
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::Asistencia_BIS.Properties.Resources.Foto_Aqui_2;
-            this.pictureBox1.Location = new System.Drawing.Point(759, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(148, 119);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel14.Location = new System.Drawing.Point(0, 277);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(923, 21);
+            this.panel14.TabIndex = 8;
             // 
-            // btn_Buscar_Supervisor
+            // Pnl_RegistroInf
             // 
-            this.btn_Buscar_Supervisor.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Buscar_Supervisor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Buscar_Supervisor.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Buscar_Supervisor.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Buscar_Supervisor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Buscar_Supervisor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Buscar_Supervisor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Buscar_Supervisor.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
-            this.btn_Buscar_Supervisor.Location = new System.Drawing.Point(692, 0);
-            this.btn_Buscar_Supervisor.Name = "btn_Buscar_Supervisor";
-            this.btn_Buscar_Supervisor.Size = new System.Drawing.Size(58, 38);
-            this.btn_Buscar_Supervisor.TabIndex = 11;
-            this.btn_Buscar_Supervisor.UseVisualStyleBackColor = false;
-            // 
-            // btn_Busar_Cargo
-            // 
-            this.btn_Busar_Cargo.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Busar_Cargo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Busar_Cargo.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Busar_Cargo.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Busar_Cargo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Busar_Cargo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Busar_Cargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Busar_Cargo.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
-            this.btn_Busar_Cargo.Location = new System.Drawing.Point(692, 0);
-            this.btn_Busar_Cargo.Name = "btn_Busar_Cargo";
-            this.btn_Busar_Cargo.Size = new System.Drawing.Size(58, 38);
-            this.btn_Busar_Cargo.TabIndex = 12;
-            this.btn_Busar_Cargo.UseVisualStyleBackColor = false;
-            // 
-            // btn_Buscar_CC
-            // 
-            this.btn_Buscar_CC.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Buscar_CC.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Buscar_CC.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Buscar_CC.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Buscar_CC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Buscar_CC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Buscar_CC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Buscar_CC.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
-            this.btn_Buscar_CC.Location = new System.Drawing.Point(692, 0);
-            this.btn_Buscar_CC.Name = "btn_Buscar_CC";
-            this.btn_Buscar_CC.Size = new System.Drawing.Size(58, 38);
-            this.btn_Buscar_CC.TabIndex = 13;
-            this.btn_Buscar_CC.UseVisualStyleBackColor = false;
-            // 
-            // btn_Pag_Ant
-            // 
-            this.btn_Pag_Ant.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_L2_transparent;
-            this.btn_Pag_Ant.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Pag_Ant.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Pag_Ant.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Pag_Ant.FlatAppearance.BorderSize = 0;
-            this.btn_Pag_Ant.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Ant.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Ant.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Pag_Ant.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Pag_Ant.ForeColor = System.Drawing.Color.White;
-            this.btn_Pag_Ant.Location = new System.Drawing.Point(3, 13);
-            this.btn_Pag_Ant.Name = "btn_Pag_Ant";
-            this.btn_Pag_Ant.Size = new System.Drawing.Size(205, 68);
-            this.btn_Pag_Ant.TabIndex = 3;
-            this.btn_Pag_Ant.Text = "Pagina\r\nAnterior";
-            this.btn_Pag_Ant.UseVisualStyleBackColor = true;
-            this.btn_Pag_Ant.MouseLeave += new System.EventHandler(this.btn_Pag_Ant_MouseLeave);
-            this.btn_Pag_Ant.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Ant_MouseMove);
-            // 
-            // btn_Pag_Sig
-            // 
-            this.btn_Pag_Sig.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_R2_transparent;
-            this.btn_Pag_Sig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Pag_Sig.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Pag_Sig.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Pag_Sig.FlatAppearance.BorderSize = 0;
-            this.btn_Pag_Sig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Sig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Sig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Pag_Sig.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Pag_Sig.ForeColor = System.Drawing.Color.White;
-            this.btn_Pag_Sig.Location = new System.Drawing.Point(234, 13);
-            this.btn_Pag_Sig.Name = "btn_Pag_Sig";
-            this.btn_Pag_Sig.Size = new System.Drawing.Size(205, 68);
-            this.btn_Pag_Sig.TabIndex = 4;
-            this.btn_Pag_Sig.Text = "Pagina\r\nSiguiente";
-            this.btn_Pag_Sig.UseVisualStyleBackColor = true;
-            this.btn_Pag_Sig.MouseLeave += new System.EventHandler(this.btn_Pag_Sig_MouseLeave);
-            this.btn_Pag_Sig.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Sig_MouseMove);
-            // 
-            // btn_Pri_Pag
-            // 
-            this.btn_Pri_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_LL2_transparent;
-            this.btn_Pri_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Pri_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Pri_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Pri_Pag.FlatAppearance.BorderSize = 0;
-            this.btn_Pri_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pri_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pri_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Pri_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Pri_Pag.ForeColor = System.Drawing.Color.White;
-            this.btn_Pri_Pag.Location = new System.Drawing.Point(3, 13);
-            this.btn_Pri_Pag.Name = "btn_Pri_Pag";
-            this.btn_Pri_Pag.Size = new System.Drawing.Size(205, 68);
-            this.btn_Pri_Pag.TabIndex = 3;
-            this.btn_Pri_Pag.Text = "Primera\r\nPagina\r\n";
-            this.btn_Pri_Pag.UseVisualStyleBackColor = true;
-            this.btn_Pri_Pag.MouseLeave += new System.EventHandler(this.btn_Pri_Pag_MouseLeave);
-            this.btn_Pri_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pri_Pag_MouseMove);
-            // 
-            // btn_Ult_Pag
-            // 
-            this.btn_Ult_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_RR2_transparent;
-            this.btn_Ult_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Ult_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Ult_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Ult_Pag.FlatAppearance.BorderSize = 0;
-            this.btn_Ult_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Ult_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Ult_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Ult_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Ult_Pag.ForeColor = System.Drawing.Color.White;
-            this.btn_Ult_Pag.Location = new System.Drawing.Point(234, 13);
-            this.btn_Ult_Pag.Name = "btn_Ult_Pag";
-            this.btn_Ult_Pag.Size = new System.Drawing.Size(206, 68);
-            this.btn_Ult_Pag.TabIndex = 4;
-            this.btn_Ult_Pag.Text = "Ultima\r\nPagina\r\n";
-            this.btn_Ult_Pag.UseVisualStyleBackColor = true;
-            this.btn_Ult_Pag.MouseLeave += new System.EventHandler(this.btn_Ult_Pag_MouseLeave);
-            this.btn_Ult_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Ult_Pag_MouseMove);
-            // 
-            // btn_Buscar
-            // 
-            this.btn_Buscar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Buscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Buscar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Buscar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Buscar.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
-            this.btn_Buscar.Location = new System.Drawing.Point(1117, 0);
-            this.btn_Buscar.Name = "btn_Buscar";
-            this.btn_Buscar.Size = new System.Drawing.Size(58, 46);
-            this.btn_Buscar.TabIndex = 7;
-            this.btn_Buscar.UseVisualStyleBackColor = false;
-            // 
-            // btn_Borrar
-            // 
-            this.btn_Borrar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Borrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Borrar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Borrar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Borrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Borrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Borrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Borrar.Image = global::Asistencia_BIS.Properties.Resources.borrador;
-            this.btn_Borrar.Location = new System.Drawing.Point(1185, 0);
-            this.btn_Borrar.Name = "btn_Borrar";
-            this.btn_Borrar.Size = new System.Drawing.Size(58, 46);
-            this.btn_Borrar.TabIndex = 8;
-            this.btn_Borrar.UseVisualStyleBackColor = false;
-            // 
-            // btn_Agregar
-            // 
-            this.btn_Agregar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Agregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Agregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Agregar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Agregar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Agregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Agregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Agregar.Image = global::Asistencia_BIS.Properties.Resources.mas3;
-            this.btn_Agregar.Location = new System.Drawing.Point(1253, 0);
-            this.btn_Agregar.Name = "btn_Agregar";
-            this.btn_Agregar.Size = new System.Drawing.Size(110, 111);
-            this.btn_Agregar.TabIndex = 9;
-            this.btn_Agregar.UseVisualStyleBackColor = false;
+            this.Pnl_RegistroInf.Controls.Add(this.Pnl_RegistroSup);
+            this.Pnl_RegistroInf.Location = new System.Drawing.Point(41, 126);
+            this.Pnl_RegistroInf.Name = "Pnl_RegistroInf";
+            this.Pnl_RegistroInf.Size = new System.Drawing.Size(997, 407);
+            this.Pnl_RegistroInf.TabIndex = 8;
             // 
             // Personal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.FLP_txt);
-            this.Controls.Add(this.panel13);
+            this.Controls.Add(this.Pnl_RegistroInf);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.Pnl_Paginado);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
@@ -1016,13 +1018,14 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel2.ResumeLayout(false);
+            this.Pnl_Paginado.ResumeLayout(false);
             this.TLP_Navegador.ResumeLayout(false);
             this.TLP_Btn_Nav1.ResumeLayout(false);
             this.TLP_Btn_Nav2.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
@@ -1032,9 +1035,9 @@
             this.panel5.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            this.panel13.ResumeLayout(false);
+            this.Pnl_RegistroSup.ResumeLayout(false);
             this.TLP_Botones.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Pnl_RegistroInf.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1043,7 +1046,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel Pnl_Paginado;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TextBox txt_Buscar;
@@ -1066,7 +1069,7 @@
         private System.Windows.Forms.TextBox txt_Apellido;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel pnl_ID;
-        private System.Windows.Forms.TextBox txt_ID;
+        private System.Windows.Forms.TextBox txt_Codigo;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel pnl_Cargo;
         private System.Windows.Forms.Panel panel10;
@@ -1077,10 +1080,10 @@
         private System.Windows.Forms.Button btn_Buscar_Supervisor;
         private System.Windows.Forms.Button btn_Busar_Cargo;
         private System.Windows.Forms.Button btn_Buscar_CC;
-        private System.Windows.Forms.ComboBox cb_Supervisor;
-        private System.Windows.Forms.ComboBox cb_Cargo;
-        private System.Windows.Forms.ComboBox cb_CC;
-        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.ComboBox cbx_Supervisor;
+        private System.Windows.Forms.ComboBox cbx_Cargo;
+        private System.Windows.Forms.ComboBox cbx_CC;
+        private System.Windows.Forms.Panel Pnl_RegistroSup;
         private System.Windows.Forms.Button btn_Guardar;
         private System.Windows.Forms.TableLayoutPanel TLP_Botones;
         private System.Windows.Forms.Button btn_Volver;
@@ -1091,7 +1094,7 @@
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.TableLayoutPanel TLP_Navegador;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_Titulo;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.TableLayoutPanel TLP_Btn_Nav1;
@@ -1101,12 +1104,12 @@
         private System.Windows.Forms.Button btn_Pri_Pag;
         private System.Windows.Forms.Button btn_Ult_Pag;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.FlowLayoutPanel FLP_txt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel Pnl_RegistroInf;
     }
 }

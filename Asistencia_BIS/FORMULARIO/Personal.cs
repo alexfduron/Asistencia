@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+//importamos la clase Logica y Datos
+using Asistencia_BIS.LOGICA;
+using Asistencia_BIS.DATOS;
+
+
 //<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
 
 namespace Asistencia_BIS.FORMULARIO
@@ -234,7 +239,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void txt_ID_MouseMove(object sender, MouseEventArgs e)
         {
 
-            if (this.txt_ID.Focused == false)
+            if (this.txt_Codigo.Focused == false)
             {
 
                 this.pnl_ID.BackColor = Color.DimGray;
@@ -246,7 +251,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void txt_ID_MouseLeave(object sender, EventArgs e)
         {
 
-            if (this.txt_ID.Focused == false)
+            if (this.txt_Codigo.Focused == false)
             {
 
                 this.pnl_ID.BackColor = Color.FromArgb(64, 64, 64);
@@ -274,7 +279,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void cb_CC_MouseMove(object sender, MouseEventArgs e)
         {
 
-            if (this.cb_CC.Focused == false)
+            if (this.cbx_CC.Focused == false)
             {
 
                 this.pnl_CC.BackColor = Color.DimGray;
@@ -286,7 +291,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void cb_CC_MouseLeave(object sender, EventArgs e)
         {
 
-            if (this.cb_CC.Focused == false)
+            if (this.cbx_CC.Focused == false)
             {
 
                 this.pnl_CC.BackColor = Color.FromArgb(64, 64, 64);
@@ -314,7 +319,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void cb_Cargo_MouseMove(object sender, MouseEventArgs e)
         {
 
-            if (this.cb_Cargo.Focused == false)
+            if (this.cbx_Cargo.Focused == false)
             {
 
                 this.pnl_Cargo.BackColor = Color.DimGray;
@@ -326,7 +331,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void cb_Cargo_MouseLeave(object sender, EventArgs e)
         {
 
-            if (this.cb_Cargo.Focused == false)
+            if (this.cbx_Cargo.Focused == false)
             {
 
                 this.pnl_Cargo.BackColor = Color.FromArgb(64, 64, 64);
@@ -354,7 +359,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void cb_Supervisor_MouseMove(object sender, MouseEventArgs e)
         {
 
-            if (this.cb_Supervisor.Focused == false)
+            if (this.cbx_Supervisor.Focused == false)
             {
 
                 this.pnl_Supervisor.BackColor = Color.DimGray;
@@ -366,7 +371,7 @@ namespace Asistencia_BIS.FORMULARIO
         private void cb_Supervisor_MouseLeave(object sender, EventArgs e)
         {
 
-            if (this.cb_Supervisor.Focused == false)
+            if (this.cbx_Supervisor.Focused == false)
             {
 
                 this.pnl_Supervisor.BackColor = Color.FromArgb(64, 64, 64);
@@ -391,6 +396,46 @@ namespace Asistencia_BIS.FORMULARIO
 
         private void panel22_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void btn_Agregar_Click(object sender, EventArgs e)
+        {
+
+            this.lbl_Titulo.Text = "Agregar Personal";
+
+            this.Pnl_Paginado.Visible = false;
+
+            this.Pnl_RegistroInf.Visible = true;
+
+            this.Pnl_RegistroInf.Dock = DockStyle.Fill;
+
+            this.Pnl_RegistroSup.Visible = true;
+
+            this.TLP_Botones.Controls.Remove(this.btn_Modificar);
+
+            TAM_DT Centrado = new TAM_DT();
+
+            Centrado.CentrarControl(this.Pnl_RegistroSup);
+
+            Limpiar();
+
+        }
+
+        private void Limpiar()
+        {
+
+            this.txt_Codigo.Clear();
+
+            this.txt_Nombre.Clear();
+
+            this.txt_Apellido.Clear();
+
+            this.cbx_CC.Text = "";
+
+            this.cbx_Cargo.Text = "";
+
+            this.cbx_Supervisor.Text = "";
 
         }
     }
