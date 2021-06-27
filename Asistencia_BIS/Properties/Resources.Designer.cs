@@ -75,7 +75,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_Gris2__transparentimage {
             get {
-                object obj = ResourceManager.GetObject("Btn Gris2 -transparentimage", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_Gris2__transparentimage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -85,7 +85,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_Gris3__transparentimage {
             get {
-                object obj = ResourceManager.GetObject("Btn Gris3 -transparentimage", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_Gris3__transparentimage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -95,7 +95,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_L1_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn L1_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_L1_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,7 +105,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_L2_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn L2_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_L2_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -115,7 +115,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_LL1_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn LL1_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_LL1_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,7 +125,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_LL2_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn LL2_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_LL2_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -135,7 +135,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_R1_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn R1_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_R1_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -145,7 +145,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_R2_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn R2_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_R2_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -155,7 +155,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_RR1_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn RR1_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_RR1_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -165,7 +165,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Btn_RR2_transparent {
             get {
-                object obj = ResourceManager.GetObject("Btn RR2_transparent", resourceCulture);
+                object obj = ResourceManager.GetObject("Btn_RR2_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -195,7 +195,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap copia_de_respaldo {
             get {
-                object obj = ResourceManager.GetObject("copia-de-respaldo", resourceCulture);
+                object obj = ResourceManager.GetObject("copia_de_respaldo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -205,7 +205,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap copia_de_restaurar {
             get {
-                object obj = ResourceManager.GetObject("copia-de-restaurar", resourceCulture);
+                object obj = ResourceManager.GetObject("copia_de_restaurar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -215,7 +215,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Foto_Aqui_2 {
             get {
-                object obj = ResourceManager.GetObject("Foto Aqui 2", resourceCulture);
+                object obj = ResourceManager.GetObject("Foto_Aqui_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,16 +226,6 @@ namespace Asistencia_BIS.Properties {
         internal static System.Drawing.Bitmap Logo2 {
             get {
                 object obj = ResourceManager.GetObject("Logo2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mas_2 {
-            get {
-                object obj = ResourceManager.GetObject("mas 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -255,7 +245,7 @@ namespace Asistencia_BIS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap reloj_digital_1_ {
             get {
-                object obj = ResourceManager.GetObject("reloj-digital(1)", resourceCulture);
+                object obj = ResourceManager.GetObject("reloj_digital_1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

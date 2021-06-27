@@ -69,18 +69,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -110,9 +110,6 @@
     <None Include="Resources\Logo2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Buscar.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\buscar 2.png" />
   </ItemGroup>
   <ItemGroup>
@@ -125,37 +122,10 @@
     <None Include="Resources\mas3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Btn Verde2.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Btn Verde2 -transparentimage.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Btn Verde21.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Btn Verde22.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Btn Verde2 -transparentimage1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Btn Gris2 -transparentimage.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Btn Gris2 -transparentimage1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Btn Gris2 -transparentimage2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Btn Gris2 -transparentimage3.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Btn Gris3 -transparentimage.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Btn Gris2 -transparentimage4.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Btn L2_transparent.png" />
