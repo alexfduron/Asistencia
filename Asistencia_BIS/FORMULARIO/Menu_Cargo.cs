@@ -20,5 +20,10 @@ namespace Asistencia_BIS.FORMULARIO
         {
 
         }
+
+        public void btn_Volver_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

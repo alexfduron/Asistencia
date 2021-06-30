@@ -31,7 +31,63 @@ namespace Asistencia_BIS.FORMULARIO
 
         
 
+        /*
+        private static Personal _Obj;
         
+        public static Personal Instance
+        {
+
+            get
+            {
+                if (_Obj == null)
+                {
+                    _Obj = new Personal();
+                }
+                return _Obj;
+            }
+
+        }
+
+        public Panel Panel_Contenedor
+        {
+            get
+            {
+                return this.Pnl_RegistroInf;
+            }
+            set
+            {
+                this.Pnl_RegistroInf = value;
+            }
+        }
+
+        public Button Volver_Pantalla
+        {
+            get
+            {
+                return Asistencia_BIS.FORMULARIO.Menu_Cargo.btn_Volver;
+            }
+            set
+            {
+                Asistencia_BIS.FORMULARIO.Menu_Cargo.btn_Volver = value;
+            }
+        }
+        */
+        /*
+        internal void GetTuUserControl()
+        {
+            if (!this.Pnl_RegistroInf.Controls.Contains(Menu_Personal.instance))
+            {
+                this.Pnl_RegistroInf.Controls.Add(Menu_Personal.instance);
+                Menu_Personal.instance.dock = DockStyle.Fill;
+                Menu_Personal.instance.BringtoFront();
+            }
+            Menu_Personal.instance.BringtoFront();
+        }
+        */
+
+
+
+
 
         
 
@@ -134,16 +190,7 @@ namespace Asistencia_BIS.FORMULARIO
 
             this.Pnl_RegistroInf.Dock = DockStyle.Fill;
 
-            Menu_Personal Control1 = new Menu_Personal();
-
-            this.Pnl_RegistroInf.Controls.Clear();
-
-            Control1.Dock = DockStyle.Fill;
-
-            this.Pnl_RegistroInf.Controls.Add(Control1);
-
-
-            
+            Menu_Personal();
 
         }
 
@@ -156,7 +203,63 @@ namespace Asistencia_BIS.FORMULARIO
 
         }
 
+        public void Menu_Personal()
+        {
+            
+            Menu_Personal Control1 = new Menu_Personal();
+
+            Control1.Button_Click += new EventHandler(Control1_BtnClick);
+            
+            /*
+            this.Pnl_RegistroInf.Controls.Clear();
+            
+            Control1.Dock = DockStyle.Fill;
+
+            this.Pnl_RegistroInf.Controls.Add(Control1);
+            */
+            
+            if (this.Pnl_RegistroInf.Contains(Control1) == false)
+            {
+                this.Pnl_RegistroInf.Controls.Add(Control1);
+                Control1.Dock = DockStyle.Fill;
+                Control1.BringToFront();
+            }
+            else
+            {
+                Control1.BringToFront();
+            }
+            
+
+        }
+
+        //Menu_Personal.Button_Click += new EventHandler(Control1_BtnClick);
+
         
+
+        
+
+        private void Control1_BtnClick(object sender, EventArgs e)
+        {
+            //el codigo va aqui
+            MessageBox.Show("Hola");
+        }
+
+        public void Menu_Cargo()
+        {
+            /*
+            Menu_Cargo Control2 = new Menu_Cargo();
+            MessageBox.Show("1");
+            this.Pnl_RegistroInf.Controls.Clear();
+            MessageBox.Show("2");
+            Control2.Dock = DockStyle.Fill;
+
+            this.Pnl_RegistroInf.Controls.Add(Control2);
+            MessageBox.Show("3");
+
+            this.lbl_Titulo.Text = "Agregar Cargo";
+            */
+
+        }
 
         
 
