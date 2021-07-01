@@ -16,37 +16,7 @@ namespace Asistencia_BIS.FORMULARIO
     public partial class Menu_Personal : UserControl
     {
 
-
-        /*
-        private static Menu_Personal _instance;
-
-        public static Menu_Personal Instance
-        {
-            get
-            {
-                if (Instance == null)
-                {
-                    _instance = new Menu_Personal();
-                }
-                return _instance;
-            }
-        }
-        */
-        /*
-        public event EventHandler Button_Click;
-
-        private void Button_Click(object sender, EventArgs e)
-        {
-            if(this.Button_Click != null)
-            {
-                this.Button_Click(this, e);
-            }
-        }
-        */
-
-
-
-
+        
 
 
 
@@ -419,17 +389,51 @@ namespace Asistencia_BIS.FORMULARIO
 
 
 
-        public event EventHandler Button1_Click;
+
+
+
+        public event EventHandler Click_Buscar_Cargo;
 
         private void btn_Buscar_Cargo_Click(object sender, EventArgs e)
         {
 
-            if(this.Button1_Click != null)
+            if(this.Click_Buscar_Cargo != null)
             {
-                this.Button1_Click(this, e);
+                this.Click_Buscar_Cargo(this, e);
             }
 
         }
+
+
+
+        public event EventHandler Click_Buscar_CC;
+
+        private void btn_Buscar_CC_Click(object sender, EventArgs e)
+        {
+
+            if (this.Click_Buscar_CC != null)
+            {
+                this.Click_Buscar_CC(this, e);
+            }
+
+        }
+
+
+
+        public event EventHandler Click_Buscar_Supervisor;
+
+        private void btn_Buscar_Supervisor_Click(object sender, EventArgs e)
+        {
+
+            if (this.Click_Buscar_Supervisor != null)
+            {
+                this.Click_Buscar_Supervisor(this, e);
+            }
+
+        }
+
+
+
 
 
 

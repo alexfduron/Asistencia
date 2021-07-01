@@ -144,66 +144,134 @@ namespace Asistencia_BIS.FORMULARIO
 
         }
 
+        private void Funcion_Menu_Personal(object sender, EventArgs e)
+        {
+
+            Menu_Personal();
+
+        }
+
         private void Menu_Personal()
         {
             
-            Menu_Personal Control1 = new Menu_Personal();
+            Menu_Personal Control_Menu_Personal = new Menu_Personal();
 
-            Control1.Button1_Click += new EventHandler(Control1_BtnClick);
+            Control_Menu_Personal.Click_Buscar_Cargo += new EventHandler(Funcion_Buscar_Cargo);
+            Control_Menu_Personal.Click_Buscar_CC += new EventHandler(Funcion_Buscar_CC);
+            Control_Menu_Personal.Click_Buscar_Supervisor += new EventHandler(Funcion_Buscar_Supervisor);
             
-            if (this.Pnl_RegistroInf.Contains(Control1) == false)
+            if (this.Pnl_RegistroInf.Contains(Control_Menu_Personal) == false)
             {
-                this.Pnl_RegistroInf.Controls.Add(Control1);
-                Control1.Dock = DockStyle.Fill;
-                Control1.BringToFront();
+                this.Pnl_RegistroInf.Controls.Add(Control_Menu_Personal);
+                Control_Menu_Personal.Dock = DockStyle.Fill;
+                Control_Menu_Personal.BringToFront();
             }
             else
             {
-                Control1.BringToFront();
+                Control_Menu_Personal.BringToFront();
             }
 
             this.lbl_Titulo.Text = "Agregar Personal";
 
         }
 
-        private void Control1_BtnClick(object sender, EventArgs e)
+
+
+
+
+        private void Funcion_Buscar_Cargo(object sender, EventArgs e)
         {
             
             Menu_Cargo();
             
         }
 
-        public void Menu_Cargo()
+        private void Menu_Cargo()
         {
             
-            Menu_Cargo Control2 = new Menu_Cargo();
-            
-            Control2.Button2_Click += new EventHandler(Control2_BtnClick);
+            Menu_Cargo Control_Menu_Cargo = new Menu_Cargo();
 
-            if (this.Pnl_RegistroInf.Contains(Control2) == false)
+            Control_Menu_Cargo.Click_Menu_Personal += new EventHandler(Funcion_Menu_Personal);
+
+            if (this.Pnl_RegistroInf.Contains(Control_Menu_Cargo) == false)
             {
-                this.Pnl_RegistroInf.Controls.Add(Control2);
-                Control2.Dock = DockStyle.Fill;
-                Control2.BringToFront();
+                this.Pnl_RegistroInf.Controls.Add(Control_Menu_Cargo);
+                Control_Menu_Cargo.Dock = DockStyle.Fill;
+                Control_Menu_Cargo.BringToFront();
             }
             else
             {
-                Control2.BringToFront();
+                Control_Menu_Cargo.BringToFront();
             }
 
             this.lbl_Titulo.Text = "Agregar Cargo";
             
         }
 
-        private void Control2_BtnClick(object sender, EventArgs e)
+
+
+
+        private void Funcion_Buscar_CC(object sender, EventArgs e)
         {
-            
-            MessageBox.Show("OK");
+
+            Menu_CC();
+
+        }
+
+        private void Menu_CC()
+        {
+
+            Menu_CC Control_Menu_CC = new Menu_CC();
+
+            Control_Menu_CC.Click_Menu_Personal += new EventHandler(Funcion_Menu_Personal);
+
+            if (this.Pnl_RegistroInf.Contains(Control_Menu_CC) == false)
+            {
+                this.Pnl_RegistroInf.Controls.Add(Control_Menu_CC);
+                Control_Menu_CC.Dock = DockStyle.Fill;
+                Control_Menu_CC.BringToFront();
+            }
+            else
+            {
+                Control_Menu_CC.BringToFront();
+            }
+
+            this.lbl_Titulo.Text = "Agregar Centro de Costo";
 
         }
 
 
 
+
+
+        private void Funcion_Buscar_Supervisor(object sender, EventArgs e)
+        {
+
+            Menu_Supervisor();
+
+        }
+
+        private void Menu_Supervisor()
+        {
+
+            Menu_Supervisor Control_Menu_Supervisor = new Menu_Supervisor();
+
+            Control_Menu_Supervisor.Click_Menu_Personal += new EventHandler(Funcion_Menu_Personal);
+
+            if (this.Pnl_RegistroInf.Contains(Control_Menu_Supervisor) == false)
+            {
+                this.Pnl_RegistroInf.Controls.Add(Control_Menu_Supervisor);
+                Control_Menu_Supervisor.Dock = DockStyle.Fill;
+                Control_Menu_Supervisor.BringToFront();
+            }
+            else
+            {
+                Control_Menu_Supervisor.BringToFront();
+            }
+
+            this.lbl_Titulo.Text = "Agregar Supervisor";
+
+        }
 
 
 

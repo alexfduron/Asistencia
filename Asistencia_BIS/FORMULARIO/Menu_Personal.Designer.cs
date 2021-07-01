@@ -277,6 +277,7 @@
             this.btn_Buscar_Supervisor.Size = new System.Drawing.Size(58, 42);
             this.btn_Buscar_Supervisor.TabIndex = 11;
             this.btn_Buscar_Supervisor.UseVisualStyleBackColor = false;
+            this.btn_Buscar_Supervisor.Click += new System.EventHandler(this.btn_Buscar_Supervisor_Click);
             // 
             // panel11
             // 
@@ -415,6 +416,7 @@
             this.btn_Buscar_CC.Size = new System.Drawing.Size(58, 42);
             this.btn_Buscar_CC.TabIndex = 13;
             this.btn_Buscar_CC.UseVisualStyleBackColor = false;
+            this.btn_Buscar_CC.Click += new System.EventHandler(this.btn_Buscar_CC_Click);
             // 
             // lbl_CC
             // 

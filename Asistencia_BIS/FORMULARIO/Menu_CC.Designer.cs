@@ -31,14 +31,14 @@
             this.Pnl_RegistroSup = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.TLP_Botones = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_Volver = new System.Windows.Forms.Button();
+            this.btn_Guardar = new System.Windows.Forms.Button();
+            this.btn_Modificar = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.pnl_CC = new System.Windows.Forms.Panel();
             this.txt_CC = new System.Windows.Forms.TextBox();
             this.lbl_CC = new System.Windows.Forms.Label();
-            this.btn_Volver = new System.Windows.Forms.Button();
-            this.btn_Guardar = new System.Windows.Forms.Button();
-            this.btn_Modificar = new System.Windows.Forms.Button();
             this.DGV_CC = new System.Windows.Forms.DataGridView();
             this.Pnl_RegistroSup.SuspendLayout();
             this.TLP_Botones.SuspendLayout();
@@ -83,6 +83,70 @@
             this.TLP_Botones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TLP_Botones.Size = new System.Drawing.Size(968, 80);
             this.TLP_Botones.TabIndex = 7;
+            // 
+            // btn_Volver
+            // 
+            this.btn_Volver.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
+            this.btn_Volver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Volver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Volver.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Volver.FlatAppearance.BorderSize = 0;
+            this.btn_Volver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Volver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Volver.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Volver.ForeColor = System.Drawing.Color.White;
+            this.btn_Volver.Location = new System.Drawing.Point(3, 3);
+            this.btn_Volver.Name = "btn_Volver";
+            this.btn_Volver.Size = new System.Drawing.Size(244, 74);
+            this.btn_Volver.TabIndex = 2;
+            this.btn_Volver.Text = "Volver";
+            this.btn_Volver.UseVisualStyleBackColor = true;
+            this.btn_Volver.Click += new System.EventHandler(this.btn_Volver_Click);
+            this.btn_Volver.MouseLeave += new System.EventHandler(this.btn_Volver_MouseLeave);
+            this.btn_Volver.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Volver_MouseMove);
+            // 
+            // btn_Guardar
+            // 
+            this.btn_Guardar.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
+            this.btn_Guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Guardar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Guardar.FlatAppearance.BorderSize = 0;
+            this.btn_Guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Guardar.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Guardar.ForeColor = System.Drawing.Color.White;
+            this.btn_Guardar.Location = new System.Drawing.Point(719, 3);
+            this.btn_Guardar.Name = "btn_Guardar";
+            this.btn_Guardar.Size = new System.Drawing.Size(246, 74);
+            this.btn_Guardar.TabIndex = 0;
+            this.btn_Guardar.Text = "Guardar";
+            this.btn_Guardar.UseVisualStyleBackColor = true;
+            this.btn_Guardar.MouseLeave += new System.EventHandler(this.btn_Guardar_MouseLeave);
+            this.btn_Guardar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Guardar_MouseMove);
+            // 
+            // btn_Modificar
+            // 
+            this.btn_Modificar.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
+            this.btn_Modificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Modificar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Modificar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Modificar.FlatAppearance.BorderSize = 0;
+            this.btn_Modificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Modificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Modificar.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Modificar.ForeColor = System.Drawing.Color.White;
+            this.btn_Modificar.Location = new System.Drawing.Point(361, 3);
+            this.btn_Modificar.Name = "btn_Modificar";
+            this.btn_Modificar.Size = new System.Drawing.Size(244, 74);
+            this.btn_Modificar.TabIndex = 1;
+            this.btn_Modificar.Text = "Modificar";
+            this.btn_Modificar.UseVisualStyleBackColor = true;
+            this.btn_Modificar.MouseLeave += new System.EventHandler(this.btn_Modificar_MouseLeave);
+            this.btn_Modificar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Modificar_MouseMove);
             // 
             // panel7
             // 
@@ -136,63 +200,6 @@
             this.lbl_CC.Text = "Centro de Costo:";
             this.lbl_CC.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // btn_Volver
-            // 
-            this.btn_Volver.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
-            this.btn_Volver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Volver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Volver.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Volver.FlatAppearance.BorderSize = 0;
-            this.btn_Volver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Volver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Volver.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Volver.ForeColor = System.Drawing.Color.White;
-            this.btn_Volver.Location = new System.Drawing.Point(3, 3);
-            this.btn_Volver.Name = "btn_Volver";
-            this.btn_Volver.Size = new System.Drawing.Size(244, 74);
-            this.btn_Volver.TabIndex = 2;
-            this.btn_Volver.Text = "Volver";
-            this.btn_Volver.UseVisualStyleBackColor = true;
-            // 
-            // btn_Guardar
-            // 
-            this.btn_Guardar.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
-            this.btn_Guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Guardar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Guardar.FlatAppearance.BorderSize = 0;
-            this.btn_Guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Guardar.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Guardar.ForeColor = System.Drawing.Color.White;
-            this.btn_Guardar.Location = new System.Drawing.Point(719, 3);
-            this.btn_Guardar.Name = "btn_Guardar";
-            this.btn_Guardar.Size = new System.Drawing.Size(246, 74);
-            this.btn_Guardar.TabIndex = 0;
-            this.btn_Guardar.Text = "Guardar";
-            this.btn_Guardar.UseVisualStyleBackColor = true;
-            // 
-            // btn_Modificar
-            // 
-            this.btn_Modificar.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_Gris3__transparentimage;
-            this.btn_Modificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Modificar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Modificar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Modificar.FlatAppearance.BorderSize = 0;
-            this.btn_Modificar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Modificar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Modificar.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Modificar.ForeColor = System.Drawing.Color.White;
-            this.btn_Modificar.Location = new System.Drawing.Point(361, 3);
-            this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(244, 74);
-            this.btn_Modificar.TabIndex = 1;
-            this.btn_Modificar.Text = "Modificar";
-            this.btn_Modificar.UseVisualStyleBackColor = true;
-            // 
             // DGV_CC
             // 
             this.DGV_CC.AllowUserToAddRows = false;
@@ -219,7 +226,7 @@
             this.Controls.Add(this.DGV_CC);
             this.Controls.Add(this.Pnl_RegistroSup);
             this.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Menu_CC";
             this.Size = new System.Drawing.Size(1037, 486);
             this.Pnl_RegistroSup.ResumeLayout(false);

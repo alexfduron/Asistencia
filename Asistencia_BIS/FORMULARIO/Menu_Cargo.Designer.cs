@@ -103,6 +103,8 @@
             this.btn_Volver.Text = "Volver";
             this.btn_Volver.UseVisualStyleBackColor = true;
             this.btn_Volver.Click += new System.EventHandler(this.btn_Volver_Click);
+            this.btn_Volver.MouseLeave += new System.EventHandler(this.btn_Volver_MouseLeave);
+            this.btn_Volver.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Volver_MouseMove);
             // 
             // btn_Guardar
             // 
@@ -122,6 +124,8 @@
             this.btn_Guardar.TabIndex = 0;
             this.btn_Guardar.Text = "Guardar";
             this.btn_Guardar.UseVisualStyleBackColor = true;
+            this.btn_Guardar.MouseLeave += new System.EventHandler(this.btn_Guardar_MouseLeave);
+            this.btn_Guardar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Guardar_MouseMove);
             // 
             // btn_Modificar
             // 
@@ -141,6 +145,8 @@
             this.btn_Modificar.TabIndex = 1;
             this.btn_Modificar.Text = "Modificar";
             this.btn_Modificar.UseVisualStyleBackColor = true;
+            this.btn_Modificar.MouseLeave += new System.EventHandler(this.btn_Modificar_MouseLeave);
+            this.btn_Modificar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Modificar_MouseMove);
             // 
             // panel7
             // 
