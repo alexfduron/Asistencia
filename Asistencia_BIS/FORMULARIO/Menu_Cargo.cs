@@ -21,9 +21,21 @@ namespace Asistencia_BIS.FORMULARIO
 
         }
 
-        public void btn_Volver_Click(object sender, EventArgs e)
-        {
+        
 
+
+        public event EventHandler Button2_Click;
+
+        private void btn_Volver_Click(object sender, EventArgs e)
+        {
+            if (this.Button2_Click != null)
+            {
+                this.Button2_Click(this, e);
+            }
         }
+
+
+
+
     }
 }

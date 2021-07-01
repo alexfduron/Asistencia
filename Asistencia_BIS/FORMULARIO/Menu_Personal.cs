@@ -416,25 +416,23 @@ namespace Asistencia_BIS.FORMULARIO
 
         }
 
-        public event EventHandler Button_Click;
+
+
+
+        public event EventHandler Button1_Click;
 
         private void btn_Buscar_Cargo_Click(object sender, EventArgs e)
         {
 
-
-            if(this.Button_Click != null)
+            if(this.Button1_Click != null)
             {
-                this.Button_Click(this, e);
+                this.Button1_Click(this, e);
             }
 
-            /*
-            //Personal ABC = new Personal();
-
-            //ABC.Menu_Cargo();
-
-            Asistencia_BIS.FORMULARIO.Personal.Instance.GetTuUserControl();
-            */
-
         }
+
+
+
+
     }
 }
