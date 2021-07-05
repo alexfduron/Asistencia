@@ -41,6 +41,7 @@
             this.lbl_CC = new System.Windows.Forms.Label();
             this.DGV_CC = new System.Windows.Forms.DataGridView();
             this.Pnl_RegistroSup.SuspendLayout();
+            this.panel14.SuspendLayout();
             this.TLP_Botones.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -54,15 +55,16 @@
             this.Pnl_RegistroSup.Controls.Add(this.panel7);
             this.Pnl_RegistroSup.Location = new System.Drawing.Point(35, 82);
             this.Pnl_RegistroSup.Name = "Pnl_RegistroSup";
-            this.Pnl_RegistroSup.Size = new System.Drawing.Size(968, 231);
+            this.Pnl_RegistroSup.Size = new System.Drawing.Size(968, 383);
             this.Pnl_RegistroSup.TabIndex = 10;
             // 
             // panel14
             // 
+            this.panel14.Controls.Add(this.DGV_CC);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(0, 112);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(968, 39);
+            this.panel14.Size = new System.Drawing.Size(968, 191);
             this.panel14.TabIndex = 8;
             // 
             // TLP_Botones
@@ -77,7 +79,7 @@
             this.TLP_Botones.Controls.Add(this.btn_Guardar, 4, 0);
             this.TLP_Botones.Controls.Add(this.btn_Modificar, 2, 0);
             this.TLP_Botones.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.TLP_Botones.Location = new System.Drawing.Point(0, 151);
+            this.TLP_Botones.Location = new System.Drawing.Point(0, 303);
             this.TLP_Botones.Name = "TLP_Botones";
             this.TLP_Botones.RowCount = 1;
             this.TLP_Botones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -124,6 +126,7 @@
             this.btn_Guardar.TabIndex = 0;
             this.btn_Guardar.Text = "Guardar";
             this.btn_Guardar.UseVisualStyleBackColor = true;
+            this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
             this.btn_Guardar.MouseLeave += new System.EventHandler(this.btn_Guardar_MouseLeave);
             this.btn_Guardar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Guardar_MouseMove);
             // 
@@ -188,6 +191,11 @@
             this.txt_CC.Name = "txt_CC";
             this.txt_CC.Size = new System.Drawing.Size(490, 39);
             this.txt_CC.TabIndex = 4;
+            this.txt_CC.TextChanged += new System.EventHandler(this.txt_CC_TextChanged);
+            this.txt_CC.Enter += new System.EventHandler(this.txt_CC_Enter);
+            this.txt_CC.Leave += new System.EventHandler(this.txt_CC_Leave);
+            this.txt_CC.MouseLeave += new System.EventHandler(this.txt_CC_MouseLeave);
+            this.txt_CC.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_CC_MouseMove);
             // 
             // lbl_CC
             // 
@@ -208,14 +216,14 @@
             this.DGV_CC.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DGV_CC.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DGV_CC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_CC.Location = new System.Drawing.Point(445, 339);
+            this.DGV_CC.Location = new System.Drawing.Point(317, 33);
             this.DGV_CC.Name = "DGV_CC";
             this.DGV_CC.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DGV_CC.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
             this.DGV_CC.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
             this.DGV_CC.RowTemplate.Height = 24;
             this.DGV_CC.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGV_CC.Size = new System.Drawing.Size(133, 101);
+            this.DGV_CC.Size = new System.Drawing.Size(328, 101);
             this.DGV_CC.TabIndex = 11;
             // 
             // Menu_CC
@@ -223,13 +231,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.DGV_CC);
             this.Controls.Add(this.Pnl_RegistroSup);
             this.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Menu_CC";
-            this.Size = new System.Drawing.Size(1037, 486);
+            this.Size = new System.Drawing.Size(1037, 529);
+            this.Load += new System.EventHandler(this.Menu_CC_Load);
             this.Pnl_RegistroSup.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
             this.TLP_Botones.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel9.ResumeLayout(false);

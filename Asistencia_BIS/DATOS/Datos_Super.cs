@@ -172,7 +172,7 @@ namespace Asistencia_BIS.DATOS
 
         }
 
-        public void Buscar_Supervisor(ref DataTable Dt, string Buscador)
+        public void Buscar_Supervisor(ref DataTable Dt, string Buscador_Nombre, string Buscador_Apellido)
         {
 
             try
@@ -184,7 +184,9 @@ namespace Asistencia_BIS.DATOS
 
                 Da.SelectCommand.CommandType = CommandType.StoredProcedure;
 
-                Da.SelectCommand.Parameters.AddWithValue("@Buscador", Buscador);
+                Da.SelectCommand.Parameters.AddWithValue("@Buscador_Nombre", Buscador_Nombre);
+
+                Da.SelectCommand.Parameters.AddWithValue("@Buscador_Apellido", Buscador_Apellido);
 
                 Da.Fill(Dt);
 

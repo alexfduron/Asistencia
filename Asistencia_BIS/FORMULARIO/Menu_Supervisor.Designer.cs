@@ -46,6 +46,7 @@
             this.lbl_Nombre = new System.Windows.Forms.Label();
             this.DGV_Supervisor = new System.Windows.Forms.DataGridView();
             this.Pnl_RegistroSup.SuspendLayout();
+            this.panel14.SuspendLayout();
             this.TLP_Botones.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBx_Supervisor)).BeginInit();
@@ -61,15 +62,16 @@
             this.Pnl_RegistroSup.Controls.Add(this.panel7);
             this.Pnl_RegistroSup.Location = new System.Drawing.Point(47, 34);
             this.Pnl_RegistroSup.Name = "Pnl_RegistroSup";
-            this.Pnl_RegistroSup.Size = new System.Drawing.Size(968, 337);
+            this.Pnl_RegistroSup.Size = new System.Drawing.Size(968, 463);
             this.Pnl_RegistroSup.TabIndex = 9;
             // 
             // panel14
             // 
+            this.panel14.Controls.Add(this.DGV_Supervisor);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(0, 215);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(968, 42);
+            this.panel14.Size = new System.Drawing.Size(968, 168);
             this.panel14.TabIndex = 8;
             // 
             // TLP_Botones
@@ -84,7 +86,7 @@
             this.TLP_Botones.Controls.Add(this.btn_Guardar, 4, 0);
             this.TLP_Botones.Controls.Add(this.btn_Modificar, 2, 0);
             this.TLP_Botones.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.TLP_Botones.Location = new System.Drawing.Point(0, 257);
+            this.TLP_Botones.Location = new System.Drawing.Point(0, 383);
             this.TLP_Botones.Name = "TLP_Botones";
             this.TLP_Botones.RowCount = 1;
             this.TLP_Botones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -131,6 +133,7 @@
             this.btn_Guardar.TabIndex = 0;
             this.btn_Guardar.Text = "Guardar";
             this.btn_Guardar.UseVisualStyleBackColor = true;
+            this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
             this.btn_Guardar.MouseLeave += new System.EventHandler(this.btn_Guardar_MouseLeave);
             this.btn_Guardar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Guardar_MouseMove);
             // 
@@ -208,6 +211,11 @@
             this.txt_Apellido.Name = "txt_Apellido";
             this.txt_Apellido.Size = new System.Drawing.Size(490, 39);
             this.txt_Apellido.TabIndex = 3;
+            this.txt_Apellido.TextChanged += new System.EventHandler(this.txt_Apellido_TextChanged);
+            this.txt_Apellido.Enter += new System.EventHandler(this.txt_Apellido_Enter);
+            this.txt_Apellido.Leave += new System.EventHandler(this.txt_Apellido_Leave);
+            this.txt_Apellido.MouseLeave += new System.EventHandler(this.txt_Apellido_MouseLeave);
+            this.txt_Apellido.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_Apellido_MouseMove);
             // 
             // lbl_Apellido
             // 
@@ -251,6 +259,11 @@
             this.txt_Nombre.Name = "txt_Nombre";
             this.txt_Nombre.Size = new System.Drawing.Size(490, 39);
             this.txt_Nombre.TabIndex = 2;
+            this.txt_Nombre.TextChanged += new System.EventHandler(this.txt_Nombre_TextChanged);
+            this.txt_Nombre.Enter += new System.EventHandler(this.txt_Nombre_Enter);
+            this.txt_Nombre.Leave += new System.EventHandler(this.txt_Nombre_Leave);
+            this.txt_Nombre.MouseLeave += new System.EventHandler(this.txt_Nombre_MouseLeave);
+            this.txt_Nombre.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_Nombre_MouseMove);
             // 
             // lbl_Nombre
             // 
@@ -271,14 +284,14 @@
             this.DGV_Supervisor.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DGV_Supervisor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DGV_Supervisor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_Supervisor.Location = new System.Drawing.Point(473, 388);
+            this.DGV_Supervisor.Location = new System.Drawing.Point(329, 26);
             this.DGV_Supervisor.Name = "DGV_Supervisor";
             this.DGV_Supervisor.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DGV_Supervisor.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
             this.DGV_Supervisor.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
             this.DGV_Supervisor.RowTemplate.Height = 24;
             this.DGV_Supervisor.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGV_Supervisor.Size = new System.Drawing.Size(133, 101);
+            this.DGV_Supervisor.Size = new System.Drawing.Size(364, 101);
             this.DGV_Supervisor.TabIndex = 12;
             // 
             // Menu_Supervisor
@@ -286,13 +299,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.DGV_Supervisor);
             this.Controls.Add(this.Pnl_RegistroSup);
             this.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Menu_Supervisor";
-            this.Size = new System.Drawing.Size(1062, 508);
+            this.Size = new System.Drawing.Size(1062, 554);
+            this.Load += new System.EventHandler(this.Menu_Supervisor_Load);
             this.Pnl_RegistroSup.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
             this.TLP_Botones.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PBx_Supervisor)).EndInit();

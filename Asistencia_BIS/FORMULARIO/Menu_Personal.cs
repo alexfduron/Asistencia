@@ -35,9 +35,7 @@ namespace Asistencia_BIS.FORMULARIO
 
             this.TLP_Botones.Controls.Remove(this.btn_Modificar);
 
-            TAM_DT Centrado = new TAM_DT();
-
-            Centrado.CentrarControl(this.Pnl_RegistroSup);
+            Logica_DataTable.CentrarControl(this.Pnl_RegistroSup);
 
             Limpiar();
 
@@ -77,23 +75,7 @@ namespace Asistencia_BIS.FORMULARIO
 
         }
 
-        private void Insertar_Cargo()
-        {
-
-            Logica_Cargo Parametros = new Logica_Cargo();
-
-            Datos_Cargo Funcion = new Datos_Cargo();
-
-            Parametros.Cargo = cbx_Cargo.Text;
-
-            if (Funcion.Insertar_Cargo(Parametros) == true)
-            {
-
-
-
-            }
-
-        }
+        
 
 
 

@@ -87,6 +87,7 @@
     </Compile>
     <Compile Include="LOGICA\Logica_Cargo.cs" />
     <Compile Include="LOGICA\Logica_CC.cs" />
+    <Compile Include="LOGICA\Logica_DataTable.cs" />
     <Compile Include="LOGICA\Logica_Personal.cs" />
     <Compile Include="LOGICA\Logica_Super.cs" />
     <Compile Include="Program.cs" />
