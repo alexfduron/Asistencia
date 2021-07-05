@@ -26,7 +26,7 @@ namespace Asistencia_BIS.DATOS
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlCommand Cmd = new SqlCommand("Insertar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlCommand Cmd = new SqlCommand("Insertar_Super", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Cmd.CommandType = CommandType.StoredProcedure;
                 
@@ -66,7 +66,7 @@ namespace Asistencia_BIS.DATOS
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlCommand Cmd = new SqlCommand("Editar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlCommand Cmd = new SqlCommand("Editar_Super", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Cmd.CommandType = CommandType.StoredProcedure;
 
@@ -108,7 +108,7 @@ namespace Asistencia_BIS.DATOS
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlCommand Cmd = new SqlCommand("Eliminar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlCommand Cmd = new SqlCommand("Eliminar_Super", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Cmd.CommandType = CommandType.StoredProcedure;
 
@@ -147,7 +147,7 @@ namespace Asistencia_BIS.DATOS
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlDataAdapter Da = new SqlDataAdapter("Mostrar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlDataAdapter Da = new SqlDataAdapter("Mostrar_Super", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Da.SelectCommand.CommandType = CommandType.StoredProcedure;
 
@@ -180,7 +180,7 @@ namespace Asistencia_BIS.DATOS
 
                 Asistencia_BIS.DATOS.ConexionMaestra.Abrir();
 
-                SqlDataAdapter Da = new SqlDataAdapter("Buscar_Supervisor", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
+                SqlDataAdapter Da = new SqlDataAdapter("Buscar_Super", Asistencia_BIS.DATOS.ConexionMaestra.Conectar);
 
                 Da.SelectCommand.CommandType = CommandType.StoredProcedure;
 
