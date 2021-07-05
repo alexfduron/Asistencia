@@ -461,6 +461,7 @@
             this.txt_Codigo.Size = new System.Drawing.Size(490, 39);
             this.txt_Codigo.TabIndex = 4;
             this.txt_Codigo.Enter += new System.EventHandler(this.txt_Codigo_Enter);
+            this.txt_Codigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Codigo_KeyPress);
             this.txt_Codigo.Leave += new System.EventHandler(this.txt_Codigo_Leave);
             this.txt_Codigo.MouseLeave += new System.EventHandler(this.txt_Codigo_MouseLeave);
             this.txt_Codigo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_Codigo_MouseMove);

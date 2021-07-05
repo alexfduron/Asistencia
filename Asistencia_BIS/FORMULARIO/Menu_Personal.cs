@@ -414,10 +414,10 @@ namespace Asistencia_BIS.FORMULARIO
 
         }
 
-
-
-
-
+        private void txt_Codigo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Logica_DataTable.Enteros(this.txt_Codigo, e);
+        }
 
 
     }
