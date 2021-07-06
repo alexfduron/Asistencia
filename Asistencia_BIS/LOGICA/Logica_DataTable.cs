@@ -46,9 +46,12 @@ namespace Asistencia_BIS.LOGICA
             Lista.RowHeadersVisible = false;
 
 
+
             Lista.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
 
             Lista.ColumnHeadersHeight = 50;
+
+            Lista.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             
             Lista.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
@@ -73,6 +76,8 @@ namespace Asistencia_BIS.LOGICA
             Lista.BackgroundColor = Color.Black;
 
             Lista.BorderStyle = BorderStyle.Fixed3D;
+
+            Lista.CellBorderStyle = DataGridViewCellBorderStyle.Single;
 
             Lista.Dock = DockStyle.Fill;
 

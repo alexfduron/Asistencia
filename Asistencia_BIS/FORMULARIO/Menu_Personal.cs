@@ -39,6 +39,8 @@ namespace Asistencia_BIS.FORMULARIO
 
             Limpiar();
 
+            Cargar_Listados();
+
         }
 
         private void Limpiar()
@@ -55,6 +57,43 @@ namespace Asistencia_BIS.FORMULARIO
             this.cbx_Cargo.Text = "";
 
             this.cbx_Supervisor.Text = "";
+
+        }
+
+        private void Cargar_Listados()
+        {
+
+            DataTable Dt = new DataTable();
+
+            Datos_Cargo Funcion_C = new Datos_Cargo();
+
+            Funcion_C.Mostrar_Cargo(ref Dt);
+            
+            this.cbx_Cargo.DataSource = Dt;
+
+            this.cbx_Cargo.DisplayMember = "Cargo";
+
+
+            DataTable Dt2 = new DataTable();
+
+            Datos_CC Funcion_CC = new Datos_CC();
+            
+            Funcion_CC.Mostrar_CC(ref Dt2);
+
+            this.cbx_CC.DataSource = Dt2;
+
+            this.cbx_CC.DisplayMember = "Centro_de_Costo";
+
+
+            DataTable Dt3 = new DataTable();
+
+            Datos_Super Funcion_S = new Datos_Super();
+
+            Funcion_S.Mostrar_Supervisor(ref Dt3);
+
+            this.cbx_Supervisor.DataSource = Dt3;
+
+            this.cbx_Supervisor.DisplayMember = "Nombre_Completo";
 
         }
 
