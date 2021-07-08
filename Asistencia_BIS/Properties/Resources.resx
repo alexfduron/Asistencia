@@ -118,64 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mas3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="borrador" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\borrador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="buscar_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buscar 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_Gris2__transparentimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn Gris2 -transparentimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Btn_Gris3__transparentimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn Gris3 -transparentimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_L1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn L1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_L2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn L2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_LL1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn LL1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_LL2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn LL2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_R1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn R1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Btn_R2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn R2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Foto_Aqui_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Foto Aqui 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_R1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn R1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Btn_RR1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Btn RR1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Btn_RR2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Btn RR2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="computadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\DATOS\IMAGEN\computadora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="copia_de_respaldo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\DATOS\IMAGEN\copia-de-respaldo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Btn_L1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn L1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_LL2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn LL2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_Gris2__transparentimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn Gris2 -transparentimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mas3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_L2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn L2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="computadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DATOS\IMAGEN\computadora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\DATOS\IMAGEN\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lapiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lapiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="copia_de_restaurar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\DATOS\IMAGEN\copia-de-restaurar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Foto_Aqui_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Foto Aqui 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="buscar_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reloj_digital_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\DATOS\IMAGEN\reloj-digital(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\DATOS\IMAGEN\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Btn_LL1_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn LL1_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="borrador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\borrador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Btn_RR2_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Btn RR2_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

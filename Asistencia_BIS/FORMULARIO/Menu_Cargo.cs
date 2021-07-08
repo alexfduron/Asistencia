@@ -20,18 +20,18 @@ namespace Asistencia_BIS.FORMULARIO
             InitializeComponent();
         }
 
+        int ID_Cargo_Local;
+
+        string Estado_Local;
+
         private void Menu_Cargo_Load(object sender, EventArgs e)
         {
 
-            
-
             this.TLP_Botones.Controls.Remove(this.btn_Modificar);
-
-            //this.txt_Cargo.Clear();
 
             Mostrar_Cargo();
 
-            //Buscar_Cargo();
+            this.txt_Cargo.Focus();
 
         }
 
@@ -217,14 +217,12 @@ namespace Asistencia_BIS.FORMULARIO
 
                 Datos_Cargo Funcion = new Datos_Cargo();
 
-                //Parametros.ID_Cargo = this.txt_Cargo.Text;
+                Parametros.ID_Cargo = ID_Cargo_Local;
                 Parametros.Cargo = this.txt_Cargo.Text;
-                //Parametros.Estado = this.txt_Cargo.Text;
+                Parametros.Estado = Estado_Local;
 
                 if (Funcion.Editar_Cargo(Parametros) == true)
                 {
-
-                    //Mostrar_Cargo();
 
                     this.btn_Volver_Click(this, null);
 
@@ -237,6 +235,44 @@ namespace Asistencia_BIS.FORMULARIO
                 MessageBox.Show("Agregar un Cargo", "Falta el Cargo...", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+
+        }
+
+        private void DGV_Cargo_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            if (e.ColumnIndex == this.DGV_Cargo.Columns["Editar_Col"].Index)
+            {
+
+                ID_Cargo_Local = Convert.ToInt32(this.DGV_Cargo.SelectedCells[2].Value);
+
+                this.txt_Cargo.Text = Convert.ToString(this.DGV_Cargo.SelectedCells[3].Value);
+
+                Estado_Local = Convert.ToString(this.DGV_Cargo.SelectedCells[4].Value);
+
+                this.TLP_Botones.Controls.Remove(this.btn_Guardar);
+
+                this.TLP_Botones.Controls.Add(this.btn_Modificar, 4, 0);
+
+                this.txt_Cargo.Focus();
+
+                this.txt_Cargo.SelectAll();
+
+            }
+            if (e.ColumnIndex == this.DGV_Cargo.Columns["Borrar_Col"].Index)
+            {
+
+
+
+            }
+            if (e.ColumnIndex == this.DGV_Cargo.Columns["Cargo"].Index)
+            {
+
+
+
+            }
+
+
 
         }
 

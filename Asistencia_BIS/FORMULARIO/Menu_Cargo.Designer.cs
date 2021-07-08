@@ -32,14 +32,18 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.DGV_Cargo = new System.Windows.Forms.DataGridView();
             this.TLP_Botones = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_Volver = new System.Windows.Forms.Button();
-            this.btn_Guardar = new System.Windows.Forms.Button();
-            this.btn_Modificar = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.pnl_Cargo = new System.Windows.Forms.Panel();
             this.txt_Cargo = new System.Windows.Forms.TextBox();
             this.lbl_Cargo = new System.Windows.Forms.Label();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.btn_Volver = new System.Windows.Forms.Button();
+            this.btn_Guardar = new System.Windows.Forms.Button();
+            this.btn_Modificar = new System.Windows.Forms.Button();
+            this.Borrar_Col = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Editar_Col = new System.Windows.Forms.DataGridViewImageColumn();
             this.Pnl_RegistroSup.SuspendLayout();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Cargo)).BeginInit();
@@ -75,6 +79,9 @@
             this.DGV_Cargo.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DGV_Cargo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DGV_Cargo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGV_Cargo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Borrar_Col,
+            this.Editar_Col});
             this.DGV_Cargo.Location = new System.Drawing.Point(185, 15);
             this.DGV_Cargo.Name = "DGV_Cargo";
             this.DGV_Cargo.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -84,6 +91,7 @@
             this.DGV_Cargo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGV_Cargo.Size = new System.Drawing.Size(533, 147);
             this.DGV_Cargo.TabIndex = 10;
+            this.DGV_Cargo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_Cargo_CellClick);
             // 
             // TLP_Botones
             // 
@@ -103,6 +111,77 @@
             this.TLP_Botones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TLP_Botones.Size = new System.Drawing.Size(968, 80);
             this.TLP_Botones.TabIndex = 7;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.panel9);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(968, 112);
+            this.panel7.TabIndex = 6;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.pnl_Cargo);
+            this.panel9.Controls.Add(this.txt_Cargo);
+            this.panel9.Controls.Add(this.lbl_Cargo);
+            this.panel9.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel9.Location = new System.Drawing.Point(3, 37);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(750, 42);
+            this.panel9.TabIndex = 13;
+            // 
+            // pnl_Cargo
+            // 
+            this.pnl_Cargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnl_Cargo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_Cargo.Location = new System.Drawing.Point(260, 39);
+            this.pnl_Cargo.Name = "pnl_Cargo";
+            this.pnl_Cargo.Size = new System.Drawing.Size(490, 3);
+            this.pnl_Cargo.TabIndex = 5;
+            // 
+            // txt_Cargo
+            // 
+            this.txt_Cargo.BackColor = System.Drawing.Color.Black;
+            this.txt_Cargo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_Cargo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txt_Cargo.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Cargo.ForeColor = System.Drawing.Color.White;
+            this.txt_Cargo.Location = new System.Drawing.Point(260, 0);
+            this.txt_Cargo.Name = "txt_Cargo";
+            this.txt_Cargo.Size = new System.Drawing.Size(490, 39);
+            this.txt_Cargo.TabIndex = 4;
+            this.txt_Cargo.TextChanged += new System.EventHandler(this.txt_Cargo_TextChanged);
+            this.txt_Cargo.Enter += new System.EventHandler(this.txt_Cargo_Enter);
+            this.txt_Cargo.Leave += new System.EventHandler(this.txt_Cargo_Leave);
+            this.txt_Cargo.MouseLeave += new System.EventHandler(this.txt_Cargo_MouseLeave);
+            this.txt_Cargo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_Cargo_MouseMove);
+            // 
+            // lbl_Cargo
+            // 
+            this.lbl_Cargo.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lbl_Cargo.ForeColor = System.Drawing.Color.White;
+            this.lbl_Cargo.Location = new System.Drawing.Point(0, 0);
+            this.lbl_Cargo.Name = "lbl_Cargo";
+            this.lbl_Cargo.Size = new System.Drawing.Size(260, 42);
+            this.lbl_Cargo.TabIndex = 7;
+            this.lbl_Cargo.Text = "Cargo:";
+            this.lbl_Cargo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.HeaderText = "";
+            this.dataGridViewImageColumn1.Image = global::Asistencia_BIS.Properties.Resources.cancelar;
+            this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            // 
+            // dataGridViewImageColumn2
+            // 
+            this.dataGridViewImageColumn2.HeaderText = "";
+            this.dataGridViewImageColumn2.Image = global::Asistencia_BIS.Properties.Resources.lapiz;
+            this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             // 
             // btn_Volver
             // 
@@ -170,62 +249,19 @@
             this.btn_Modificar.MouseLeave += new System.EventHandler(this.btn_Modificar_MouseLeave);
             this.btn_Modificar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Modificar_MouseMove);
             // 
-            // panel7
+            // Borrar_Col
             // 
-            this.panel7.Controls.Add(this.panel9);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(968, 112);
-            this.panel7.TabIndex = 6;
+            this.Borrar_Col.HeaderText = "Borrar";
+            this.Borrar_Col.Image = global::Asistencia_BIS.Properties.Resources.cancelar;
+            this.Borrar_Col.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Borrar_Col.Name = "Borrar_Col";
             // 
-            // panel9
+            // Editar_Col
             // 
-            this.panel9.Controls.Add(this.pnl_Cargo);
-            this.panel9.Controls.Add(this.txt_Cargo);
-            this.panel9.Controls.Add(this.lbl_Cargo);
-            this.panel9.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel9.Location = new System.Drawing.Point(3, 37);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(750, 42);
-            this.panel9.TabIndex = 13;
-            // 
-            // pnl_Cargo
-            // 
-            this.pnl_Cargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pnl_Cargo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnl_Cargo.Location = new System.Drawing.Point(260, 39);
-            this.pnl_Cargo.Name = "pnl_Cargo";
-            this.pnl_Cargo.Size = new System.Drawing.Size(490, 3);
-            this.pnl_Cargo.TabIndex = 5;
-            // 
-            // txt_Cargo
-            // 
-            this.txt_Cargo.BackColor = System.Drawing.Color.Black;
-            this.txt_Cargo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Cargo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txt_Cargo.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Cargo.ForeColor = System.Drawing.Color.White;
-            this.txt_Cargo.Location = new System.Drawing.Point(260, 0);
-            this.txt_Cargo.Name = "txt_Cargo";
-            this.txt_Cargo.Size = new System.Drawing.Size(490, 39);
-            this.txt_Cargo.TabIndex = 4;
-            this.txt_Cargo.TextChanged += new System.EventHandler(this.txt_Cargo_TextChanged);
-            this.txt_Cargo.Enter += new System.EventHandler(this.txt_Cargo_Enter);
-            this.txt_Cargo.Leave += new System.EventHandler(this.txt_Cargo_Leave);
-            this.txt_Cargo.MouseLeave += new System.EventHandler(this.txt_Cargo_MouseLeave);
-            this.txt_Cargo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.txt_Cargo_MouseMove);
-            // 
-            // lbl_Cargo
-            // 
-            this.lbl_Cargo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbl_Cargo.ForeColor = System.Drawing.Color.White;
-            this.lbl_Cargo.Location = new System.Drawing.Point(0, 0);
-            this.lbl_Cargo.Name = "lbl_Cargo";
-            this.lbl_Cargo.Size = new System.Drawing.Size(260, 42);
-            this.lbl_Cargo.TabIndex = 7;
-            this.lbl_Cargo.Text = "Cargo:";
-            this.lbl_Cargo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Editar_Col.HeaderText = "Editar";
+            this.Editar_Col.Image = global::Asistencia_BIS.Properties.Resources.lapiz;
+            this.Editar_Col.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Editar_Col.Name = "Editar_Col";
             // 
             // Menu_Cargo
             // 
@@ -263,5 +299,9 @@
         private System.Windows.Forms.TextBox txt_Cargo;
         private System.Windows.Forms.Label lbl_Cargo;
         private System.Windows.Forms.DataGridView DGV_Cargo;
+        private System.Windows.Forms.DataGridViewImageColumn Borrar_Col;
+        private System.Windows.Forms.DataGridViewImageColumn Editar_Col;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
     }
 }
