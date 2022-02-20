@@ -197,7 +197,7 @@
             // 
             this.PBx_Personal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PBx_Personal.Image = global::Asistencia_BIS.Properties.Resources.Foto_Aqui_2;
-            this.PBx_Personal.Location = new System.Drawing.Point(759, 23);
+            this.PBx_Personal.Location = new System.Drawing.Point(760, 23);
             this.PBx_Personal.Name = "PBx_Personal";
             this.PBx_Personal.Size = new System.Drawing.Size(186, 138);
             this.PBx_Personal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
