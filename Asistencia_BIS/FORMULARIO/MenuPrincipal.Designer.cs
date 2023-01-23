@@ -509,7 +509,7 @@
             this.pnl_Bienvenido.Controls.Add(this.label3);
             this.pnl_Bienvenido.Location = new System.Drawing.Point(54, 23);
             this.pnl_Bienvenido.Name = "pnl_Bienvenido";
-            this.pnl_Bienvenido.Size = new System.Drawing.Size(647, 494);
+            this.pnl_Bienvenido.Size = new System.Drawing.Size(651, 489);
             this.pnl_Bienvenido.TabIndex = 0;
             // 
             // label3
@@ -519,10 +519,11 @@
             this.label3.ForeColor = System.Drawing.Color.Silver;
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(647, 494);
+            this.label3.Size = new System.Drawing.Size(651, 489);
             this.label3.TabIndex = 4;
             this.label3.Text = "Bienvenido al sistema de asistencia";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // MenuPrincipal
             // 

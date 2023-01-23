@@ -34,13 +34,20 @@
             this.pnl_Buscar = new System.Windows.Forms.Panel();
             this.txt_Buscar = new System.Windows.Forms.TextBox();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.btn_Buscar = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.btn_Borrar = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.btn_Agregar = new System.Windows.Forms.Button();
             this.DGV_Personal = new System.Windows.Forms.DataGridView();
             this.Pnl_Paginado = new System.Windows.Forms.Panel();
             this.TLP_Navegador = new System.Windows.Forms.TableLayoutPanel();
             this.TLP_Btn_Nav1 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_Pag_Ant = new System.Windows.Forms.Button();
+            this.btn_Pag_Sig = new System.Windows.Forms.Button();
             this.TLP_Btn_Nav2 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_Pri_Pag = new System.Windows.Forms.Button();
+            this.btn_Ult_Pag = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -50,13 +57,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.Pnl_RegistroInf = new System.Windows.Forms.Panel();
-            this.btn_Pag_Ant = new System.Windows.Forms.Button();
-            this.btn_Pag_Sig = new System.Windows.Forms.Button();
-            this.btn_Pri_Pag = new System.Windows.Forms.Button();
-            this.btn_Ult_Pag = new System.Windows.Forms.Button();
-            this.btn_Buscar = new System.Windows.Forms.Button();
-            this.btn_Borrar = new System.Windows.Forms.Button();
-            this.btn_Agregar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Personal)).BeginInit();
@@ -139,6 +139,22 @@
             this.panel20.Size = new System.Drawing.Size(10, 46);
             this.panel20.TabIndex = 12;
             // 
+            // btn_Buscar
+            // 
+            this.btn_Buscar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Buscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Buscar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Buscar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Buscar.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
+            this.btn_Buscar.Location = new System.Drawing.Point(1098, 0);
+            this.btn_Buscar.Name = "btn_Buscar";
+            this.btn_Buscar.Size = new System.Drawing.Size(58, 46);
+            this.btn_Buscar.TabIndex = 7;
+            this.btn_Buscar.UseVisualStyleBackColor = false;
+            // 
             // panel19
             // 
             this.panel19.Dock = System.Windows.Forms.DockStyle.Right;
@@ -146,6 +162,22 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(10, 46);
             this.panel19.TabIndex = 11;
+            // 
+            // btn_Borrar
+            // 
+            this.btn_Borrar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Borrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Borrar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Borrar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Borrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Borrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Borrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Borrar.Image = global::Asistencia_BIS.Properties.Resources.borrador;
+            this.btn_Borrar.Location = new System.Drawing.Point(1166, 0);
+            this.btn_Borrar.Name = "btn_Borrar";
+            this.btn_Borrar.Size = new System.Drawing.Size(58, 46);
+            this.btn_Borrar.TabIndex = 8;
+            this.btn_Borrar.UseVisualStyleBackColor = false;
             // 
             // panel15
             // 
@@ -155,19 +187,39 @@
             this.panel15.Size = new System.Drawing.Size(10, 46);
             this.panel15.TabIndex = 10;
             // 
+            // btn_Agregar
+            // 
+            this.btn_Agregar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Agregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_Agregar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Agregar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btn_Agregar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_Agregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_Agregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
+            this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Agregar.Image = global::Asistencia_BIS.Properties.Resources.mas3;
+            this.btn_Agregar.Location = new System.Drawing.Point(1234, 0);
+            this.btn_Agregar.Name = "btn_Agregar";
+            this.btn_Agregar.Size = new System.Drawing.Size(129, 133);
+            this.btn_Agregar.TabIndex = 9;
+            this.btn_Agregar.UseVisualStyleBackColor = false;
+            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
+            // 
             // DGV_Personal
             // 
             this.DGV_Personal.AllowUserToAddRows = false;
             this.DGV_Personal.AllowUserToDeleteRows = false;
             this.DGV_Personal.AllowUserToResizeRows = false;
             this.DGV_Personal.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.DGV_Personal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.DGV_Personal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DGV_Personal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGV_Personal.Location = new System.Drawing.Point(1033, 183);
             this.DGV_Personal.Name = "DGV_Personal";
+            this.DGV_Personal.RowHeadersWidth = 51;
             this.DGV_Personal.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.DGV_Personal.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DGV_Personal.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.DGV_Personal.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
+            this.DGV_Personal.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.DimGray;
             this.DGV_Personal.RowTemplate.Height = 24;
             this.DGV_Personal.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DGV_Personal.Size = new System.Drawing.Size(133, 101);
@@ -221,6 +273,48 @@
             this.TLP_Btn_Nav1.Size = new System.Drawing.Size(442, 94);
             this.TLP_Btn_Nav1.TabIndex = 0;
             // 
+            // btn_Pag_Ant
+            // 
+            this.btn_Pag_Ant.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_L2_transparent;
+            this.btn_Pag_Ant.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Pag_Ant.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Pag_Ant.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Pag_Ant.FlatAppearance.BorderSize = 0;
+            this.btn_Pag_Ant.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Ant.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Ant.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Pag_Ant.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Pag_Ant.ForeColor = System.Drawing.Color.White;
+            this.btn_Pag_Ant.Location = new System.Drawing.Point(3, 13);
+            this.btn_Pag_Ant.Name = "btn_Pag_Ant";
+            this.btn_Pag_Ant.Size = new System.Drawing.Size(205, 68);
+            this.btn_Pag_Ant.TabIndex = 3;
+            this.btn_Pag_Ant.Text = "Pagina\r\nAnterior";
+            this.btn_Pag_Ant.UseVisualStyleBackColor = true;
+            this.btn_Pag_Ant.MouseLeave += new System.EventHandler(this.btn_Pag_Ant_MouseLeave);
+            this.btn_Pag_Ant.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Ant_MouseMove);
+            // 
+            // btn_Pag_Sig
+            // 
+            this.btn_Pag_Sig.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_R2_transparent;
+            this.btn_Pag_Sig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Pag_Sig.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Pag_Sig.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Pag_Sig.FlatAppearance.BorderSize = 0;
+            this.btn_Pag_Sig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Sig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pag_Sig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Pag_Sig.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Pag_Sig.ForeColor = System.Drawing.Color.White;
+            this.btn_Pag_Sig.Location = new System.Drawing.Point(234, 13);
+            this.btn_Pag_Sig.Name = "btn_Pag_Sig";
+            this.btn_Pag_Sig.Size = new System.Drawing.Size(205, 68);
+            this.btn_Pag_Sig.TabIndex = 4;
+            this.btn_Pag_Sig.Text = "Pagina\r\nSiguiente";
+            this.btn_Pag_Sig.UseVisualStyleBackColor = true;
+            this.btn_Pag_Sig.MouseLeave += new System.EventHandler(this.btn_Pag_Sig_MouseLeave);
+            this.btn_Pag_Sig.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Sig_MouseMove);
+            // 
             // TLP_Btn_Nav2
             // 
             this.TLP_Btn_Nav2.ColumnCount = 3;
@@ -240,6 +334,48 @@
             this.TLP_Btn_Nav2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.TLP_Btn_Nav2.Size = new System.Drawing.Size(443, 94);
             this.TLP_Btn_Nav2.TabIndex = 1;
+            // 
+            // btn_Pri_Pag
+            // 
+            this.btn_Pri_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_LL2_transparent;
+            this.btn_Pri_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Pri_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Pri_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Pri_Pag.FlatAppearance.BorderSize = 0;
+            this.btn_Pri_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pri_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pri_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Pri_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Pri_Pag.ForeColor = System.Drawing.Color.White;
+            this.btn_Pri_Pag.Location = new System.Drawing.Point(3, 13);
+            this.btn_Pri_Pag.Name = "btn_Pri_Pag";
+            this.btn_Pri_Pag.Size = new System.Drawing.Size(205, 68);
+            this.btn_Pri_Pag.TabIndex = 3;
+            this.btn_Pri_Pag.Text = "Primera\r\nPagina\r\n";
+            this.btn_Pri_Pag.UseVisualStyleBackColor = true;
+            this.btn_Pri_Pag.MouseLeave += new System.EventHandler(this.btn_Pri_Pag_MouseLeave);
+            this.btn_Pri_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pri_Pag_MouseMove);
+            // 
+            // btn_Ult_Pag
+            // 
+            this.btn_Ult_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_RR2_transparent;
+            this.btn_Ult_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Ult_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Ult_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn_Ult_Pag.FlatAppearance.BorderSize = 0;
+            this.btn_Ult_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Ult_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Ult_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Ult_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ult_Pag.ForeColor = System.Drawing.Color.White;
+            this.btn_Ult_Pag.Location = new System.Drawing.Point(234, 13);
+            this.btn_Ult_Pag.Name = "btn_Ult_Pag";
+            this.btn_Ult_Pag.Size = new System.Drawing.Size(206, 68);
+            this.btn_Ult_Pag.TabIndex = 4;
+            this.btn_Ult_Pag.Text = "Ultima\r\nPagina\r\n";
+            this.btn_Ult_Pag.UseVisualStyleBackColor = true;
+            this.btn_Ult_Pag.MouseLeave += new System.EventHandler(this.btn_Ult_Pag_MouseLeave);
+            this.btn_Ult_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Ult_Pag_MouseMove);
             // 
             // panel21
             // 
@@ -328,140 +464,6 @@
             this.Pnl_RegistroInf.Name = "Pnl_RegistroInf";
             this.Pnl_RegistroInf.Size = new System.Drawing.Size(954, 487);
             this.Pnl_RegistroInf.TabIndex = 8;
-            // 
-            // btn_Pag_Ant
-            // 
-            this.btn_Pag_Ant.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_L2_transparent;
-            this.btn_Pag_Ant.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Pag_Ant.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Pag_Ant.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Pag_Ant.FlatAppearance.BorderSize = 0;
-            this.btn_Pag_Ant.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Ant.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Ant.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Pag_Ant.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Pag_Ant.ForeColor = System.Drawing.Color.White;
-            this.btn_Pag_Ant.Location = new System.Drawing.Point(3, 13);
-            this.btn_Pag_Ant.Name = "btn_Pag_Ant";
-            this.btn_Pag_Ant.Size = new System.Drawing.Size(205, 68);
-            this.btn_Pag_Ant.TabIndex = 3;
-            this.btn_Pag_Ant.Text = "Pagina\r\nAnterior";
-            this.btn_Pag_Ant.UseVisualStyleBackColor = true;
-            this.btn_Pag_Ant.MouseLeave += new System.EventHandler(this.btn_Pag_Ant_MouseLeave);
-            this.btn_Pag_Ant.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Ant_MouseMove);
-            // 
-            // btn_Pag_Sig
-            // 
-            this.btn_Pag_Sig.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_R2_transparent;
-            this.btn_Pag_Sig.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Pag_Sig.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Pag_Sig.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Pag_Sig.FlatAppearance.BorderSize = 0;
-            this.btn_Pag_Sig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Sig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pag_Sig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Pag_Sig.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Pag_Sig.ForeColor = System.Drawing.Color.White;
-            this.btn_Pag_Sig.Location = new System.Drawing.Point(234, 13);
-            this.btn_Pag_Sig.Name = "btn_Pag_Sig";
-            this.btn_Pag_Sig.Size = new System.Drawing.Size(205, 68);
-            this.btn_Pag_Sig.TabIndex = 4;
-            this.btn_Pag_Sig.Text = "Pagina\r\nSiguiente";
-            this.btn_Pag_Sig.UseVisualStyleBackColor = true;
-            this.btn_Pag_Sig.MouseLeave += new System.EventHandler(this.btn_Pag_Sig_MouseLeave);
-            this.btn_Pag_Sig.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pag_Sig_MouseMove);
-            // 
-            // btn_Pri_Pag
-            // 
-            this.btn_Pri_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_LL2_transparent;
-            this.btn_Pri_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Pri_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Pri_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Pri_Pag.FlatAppearance.BorderSize = 0;
-            this.btn_Pri_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pri_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Pri_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Pri_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Pri_Pag.ForeColor = System.Drawing.Color.White;
-            this.btn_Pri_Pag.Location = new System.Drawing.Point(3, 13);
-            this.btn_Pri_Pag.Name = "btn_Pri_Pag";
-            this.btn_Pri_Pag.Size = new System.Drawing.Size(205, 68);
-            this.btn_Pri_Pag.TabIndex = 3;
-            this.btn_Pri_Pag.Text = "Primera\r\nPagina\r\n";
-            this.btn_Pri_Pag.UseVisualStyleBackColor = true;
-            this.btn_Pri_Pag.MouseLeave += new System.EventHandler(this.btn_Pri_Pag_MouseLeave);
-            this.btn_Pri_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Pri_Pag_MouseMove);
-            // 
-            // btn_Ult_Pag
-            // 
-            this.btn_Ult_Pag.BackgroundImage = global::Asistencia_BIS.Properties.Resources.Btn_RR2_transparent;
-            this.btn_Ult_Pag.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Ult_Pag.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Ult_Pag.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btn_Ult_Pag.FlatAppearance.BorderSize = 0;
-            this.btn_Ult_Pag.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Ult_Pag.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_Ult_Pag.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Ult_Pag.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Ult_Pag.ForeColor = System.Drawing.Color.White;
-            this.btn_Ult_Pag.Location = new System.Drawing.Point(234, 13);
-            this.btn_Ult_Pag.Name = "btn_Ult_Pag";
-            this.btn_Ult_Pag.Size = new System.Drawing.Size(206, 68);
-            this.btn_Ult_Pag.TabIndex = 4;
-            this.btn_Ult_Pag.Text = "Ultima\r\nPagina\r\n";
-            this.btn_Ult_Pag.UseVisualStyleBackColor = true;
-            this.btn_Ult_Pag.MouseLeave += new System.EventHandler(this.btn_Ult_Pag_MouseLeave);
-            this.btn_Ult_Pag.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btn_Ult_Pag_MouseMove);
-            // 
-            // btn_Buscar
-            // 
-            this.btn_Buscar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Buscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Buscar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Buscar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Buscar.Image = global::Asistencia_BIS.Properties.Resources.buscar_2;
-            this.btn_Buscar.Location = new System.Drawing.Point(1098, 0);
-            this.btn_Buscar.Name = "btn_Buscar";
-            this.btn_Buscar.Size = new System.Drawing.Size(58, 46);
-            this.btn_Buscar.TabIndex = 7;
-            this.btn_Buscar.UseVisualStyleBackColor = false;
-            // 
-            // btn_Borrar
-            // 
-            this.btn_Borrar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Borrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Borrar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Borrar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Borrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Borrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Borrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Borrar.Image = global::Asistencia_BIS.Properties.Resources.borrador;
-            this.btn_Borrar.Location = new System.Drawing.Point(1166, 0);
-            this.btn_Borrar.Name = "btn_Borrar";
-            this.btn_Borrar.Size = new System.Drawing.Size(58, 46);
-            this.btn_Borrar.TabIndex = 8;
-            this.btn_Borrar.UseVisualStyleBackColor = false;
-            // 
-            // btn_Agregar
-            // 
-            this.btn_Agregar.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Agregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Agregar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Agregar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_Agregar.FlatAppearance.BorderColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_Agregar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btn_Agregar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MidnightBlue;
-            this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Agregar.Image = global::Asistencia_BIS.Properties.Resources.mas3;
-            this.btn_Agregar.Location = new System.Drawing.Point(1234, 0);
-            this.btn_Agregar.Name = "btn_Agregar";
-            this.btn_Agregar.Size = new System.Drawing.Size(129, 133);
-            this.btn_Agregar.TabIndex = 9;
-            this.btn_Agregar.UseVisualStyleBackColor = false;
-            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
             // Personal
             // 

@@ -458,6 +458,9 @@ namespace Asistencia_BIS.FORMULARIO
             Logica_DataTable.Enteros(this.txt_Codigo, e);
         }
 
+        private void btn_Volver_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

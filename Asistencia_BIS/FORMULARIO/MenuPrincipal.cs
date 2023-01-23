@@ -43,5 +43,10 @@ namespace Asistencia_BIS.FORMULARIO
             this.pnl_Bienvenido.Controls.Add(Control1);
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
