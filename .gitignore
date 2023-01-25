@@ -240,3 +240,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Asistencia_BIS/obj/Debug/_IsIncrementalBuild
+/Asistencia_BIS/obj/Debug/Asistencia_BIS.csproj.AssemblyReference.cache
+/Asistencia_BIS/obj/Debug/_IsIncrementalBuild
+/Asistencia_BIS/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
