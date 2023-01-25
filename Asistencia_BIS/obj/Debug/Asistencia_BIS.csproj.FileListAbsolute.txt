@@ -1,0 +1,16 @@
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\bin\Debug\Asistencia_BIS.exe.config
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\bin\Debug\Asistencia_BIS.exe
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\bin\Debug\Asistencia_BIS.pdb
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.csproj.AssemblyReference.cache
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.FORMULARIO.MenuPrincipal.resources
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.FORMULARIO.Menu_Cargo.resources
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.FORMULARIO.Menu_CC.resources
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.FORMULARIO.Menu_Personal.resources
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.FORMULARIO.Menu_Supervisor.resources
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.FORMULARIO.Personal.resources
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.Properties.Resources.resources
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.csproj.GenerateResource.cache
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.csproj.CoreCompileInputs.cache
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.exe
+C:\Users\alexf\Source\Repos\alexfduron\Asistencia\Asistencia_BIS\obj\Debug\Asistencia_BIS.pdb
